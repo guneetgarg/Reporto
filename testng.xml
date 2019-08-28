@@ -12,4 +12,10 @@
 
         </classes>
     </test> <!-- Test -->
+
+    <test name="testAAAATest">
+        <classes>
+            <class name="functional.FunctionalSample1"/>
+        </classes>
+    </test> <!-- Test -->
 </suite> <!-- Suite -->
