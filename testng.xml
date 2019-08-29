@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="testSuite">
-    <listeners>
-        <listener class-name="com.reporto.ReportoListner"></listener>
-    </listeners>
+<suite name="testSuite" parallel="classes">
+    <!--<listeners>
+        <listener class-name="com.reporto.ReportoListener"></listener>
+    </listeners>-->
     <test name="testTest">
         <parameter name="sUsername" value="testuser_1"/>
         <parameter name="sPassword" value="Test@123"/>
@@ -11,7 +11,7 @@
             <class name="functional.FunctionalSample"/>
 
         </classes>
-    </test> <!-- Test -->
+    </test>
 
     <test name="testAAAATest">
         <classes>
