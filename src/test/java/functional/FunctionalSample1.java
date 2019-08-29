@@ -1,18 +1,19 @@
 package functional;
 
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class FunctionalSample1 {
 
-    @Test
+    @Test(description="Launches the WordPress site")
     public void TestA() {
 
     }
 
     @Test
     public void TestB() {
-
+        Assert.fail();
     }
 
 
@@ -23,7 +24,7 @@ public class FunctionalSample1 {
 
     @Test
     public void TestD() {
-
+        Assert.fail();
     }
 
     @Test
