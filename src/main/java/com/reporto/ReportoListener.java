@@ -1,12 +1,13 @@
 package com.reporto;
 
+import com.sun.org.glassfish.external.statistics.Stats;
 import org.testng.*;
 import org.testng.xml.XmlSuite;
 
 import java.util.List;
 import java.util.Map;
 
-public class ReportoListner implements IReporter, ITestListener {
+public class ReportoListener implements IReporter, ITestListener {
 
 
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
@@ -32,8 +33,11 @@ public class ReportoListner implements IReporter, ITestListener {
                 StatsResult.ignored += testContext.getExcludedMethods().size();
             }
         }
-        System.out.printf("passed " + StatsResult.passed);
-
+        System.out.println("passed " + StatsResult.passed);
+        System.out.println("failed " + StatsResult.failed);
+        System.out.println("skipped " + StatsResult.skipped);
+        System.out.println("ignored " + StatsResult.ignored);
+        System.out.println(StatsResult.getTotal());
 
     }
 }
