@@ -3,11 +3,235 @@
   <component name="ChangeListManager">
     <list default="true" id="090fcf57-8533-45fb-81fe-2e21c95b3f0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META_INF.services/org.testng.ITestNGListener" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reporto/ReportoListner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reporto/StatsResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reporto/StatsResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/functional/FunctionalSample1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/functional/FunctionalSample1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reporto/ReportoListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reporto/ReportoListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/blank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/buttons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/cards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/charts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/css/sb-admin-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/css/sb-admin-2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/css/sb-admin-2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/css/sb-admin-2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/forgot-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/forgot-password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/js/demo/chart-area-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/js/demo/chart-area-demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/js/demo/chart-bar-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/js/demo/chart-bar-demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/js/demo/chart-pie-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/js/demo/chart-pie-demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/js/demo/datatables-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/js/demo/datatables-demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/js/sb-admin-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/js/sb-admin-2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/js/sb-admin-2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/js/sb-admin-2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_cards.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_charts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_charts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_dropdowns.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_dropdowns.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_error.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_error.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_login.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_navs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_navs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/navs/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/navs/_global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/navs/_sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/navs/_sidebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/navs/_topbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/navs/_topbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/sb-admin-2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/sb-admin-2.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/utilities/_animation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/utilities/_animation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/utilities/_background.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/utilities/_background.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/utilities/_border.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/utilities/_border.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/utilities/_display.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/utilities/_display.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/utilities/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/utilities/_progress.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/utilities/_rotate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/utilities/_rotate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/utilities/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/scss/utilities/_text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/tables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/utilities-animation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/utilities-animation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/utilities-border.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/utilities-border.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/utilities-color.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/utilities-color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/utilities-other.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/utilities-other.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_button-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_button-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_close.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_code.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_code.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_custom-forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_custom-forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_input-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_jumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_jumbotron.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_popover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_print.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_progress.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_root.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_spinners.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_spinners.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_tables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_toasts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_toasts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_tooltip.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_transitions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_transitions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_type.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/bootstrap-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_background-variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_background-variant.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_border-radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_box-shadow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_caret.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_deprecate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_deprecate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_float.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_gradients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_gradients.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_grid-framework.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_grid-framework.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_hover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_hover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_image.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_lists.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_lists.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_nav-divider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_nav-divider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_reset-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_resize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_resize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_screen-reader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_size.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_size.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_table-row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_table-row.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_text-emphasis.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_text-emphasis.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_text-hide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_text-hide.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_text-truncate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_text-truncate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_transition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/mixins/_visibility.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_align.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_align.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_background.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_background.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_borders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_borders.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_display.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_display.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_embed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_embed.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_flex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_flex.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_float.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_overflow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_overflow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_position.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_screenreaders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_screenreaders.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_shadows.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_shadows.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_sizing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_spacing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_stretched-link.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_stretched-link.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/utilities/_visibility.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/vendor/_rfs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/scss/vendor/_rfs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/chart.js/Chart.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/chart.js/Chart.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/chart.js/Chart.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/chart.js/Chart.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/datatables/dataTables.bootstrap4.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/datatables/dataTables.bootstrap4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/datatables/dataTables.bootstrap4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/datatables/dataTables.bootstrap4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/datatables/dataTables.bootstrap4.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/datatables/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/datatables/dataTables.bootstrap4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/datatables/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/datatables/jquery.dataTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/datatables/jquery.dataTables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/datatables/jquery.dataTables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/datatables/jquery.dataTables.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/all.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/brands.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/brands.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/brands.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/brands.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/fontawesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/fontawesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/fontawesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/fontawesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/regular.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/regular.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/regular.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/regular.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/solid.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/solid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/solid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/solid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/svg-with-js.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/svg-with-js.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/svg-with-js.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/svg-with-js.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/v4-shims.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/v4-shims.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/v4-shims.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/css/v4-shims.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/all.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/brands.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/brands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/brands.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/brands.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/fontawesome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/fontawesome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/fontawesome.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/fontawesome.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/regular.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/regular.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/regular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/regular.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/solid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/solid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/solid.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/solid.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/v4-shims.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/v4-shims.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/v4-shims.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/js/v4-shims.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_animated.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_animated.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_bordered-pulled.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_core.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_core.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_fixed-width.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_fixed-width.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_icons.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_larger.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_list.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_list.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_mixins.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_rotated-flipped.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_rotated-flipped.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_screen-reader.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_screen-reader.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_shims.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_shims.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_stacked.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/_variables.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/brands.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/brands.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/fontawesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/fontawesome.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/regular.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/regular.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/solid.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/solid.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/v4-shims.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/less/v4-shims.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_animated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_animated.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_bordered-pulled.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_core.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_fixed-width.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_fixed-width.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_larger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_larger.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_rotated-flipped.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_screen-reader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_shims.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_shims.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_stacked.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/brands.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/brands.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/fontawesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/fontawesome.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/regular.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/regular.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/solid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/solid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/v4-shims.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/scss/v4-shims.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/sprites/brands.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/sprites/brands.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/sprites/regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/sprites/regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/sprites/solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/sprites/solid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/webfonts/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/webfonts/fa-regular-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/webfonts/fa-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/fontawesome-free/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/jquery-easing/jquery.easing.compatibility.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/jquery-easing/jquery.easing.compatibility.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/jquery-easing/jquery.easing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/jquery-easing/jquery.easing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/jquery/jquery.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/jquery/jquery.slim.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/startbootstrap-sb-admin-2-gh-pages/vendor/jquery/jquery.slim.min.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,8 +249,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="19" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="221">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -34,8 +258,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/reporto/ReportoListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+            <state relative-caret-position="-22">
+              <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,6 +298,9 @@
     <replaceStrings>
       <replace />
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\guneet.garg\IdeaProjects\Reporto\src\main\resources\startbootstrap-sb-admin-2-gh-pages</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -89,8 +316,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/reporto/ReportoListner.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/services/org.testng.ITestNGListener" />
         <option value="$PROJECT_DIR$/src/main/java/com/reporto/StatsResult.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/functional/FunctionalSample1.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/reporto/ReportoListener.java" />
       </list>
     </option>
@@ -259,16 +486,17 @@
       <option name="project" value="LOCAL" />
       <updated>1567093979343</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=".class">
+      <created>1567095266622</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567095266622</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_guneet_garg_IdeaProjects_Reporto_testng_xml - 2019.08.29 at 20h 11m 41s.xml">
-      <configuration name="C:/Users/guneet.garg/IdeaProjects/Reporto/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_guneet_garg_IdeaProjects_Reporto_testng_xml - 2019.08.29 at 20h 17m 45s.xml">
-      <configuration name="C:/Users/guneet.garg/IdeaProjects/Reporto/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_guneet_garg_IdeaProjects_Reporto_testng_xml - 2019.08.29 at 20h 20m 27s.xml">
       <configuration name="C:/Users/guneet.garg/IdeaProjects/Reporto/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -293,6 +521,12 @@
     <history-entry file="C__Users_guneet_garg_IdeaProjects_Reporto_testng_xml - 2019.08.29 at 21h 11m 06s.xml">
       <configuration name="C:/Users/guneet.garg/IdeaProjects/Reporto/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_guneet_garg_IdeaProjects_Reporto_testng_xml - 2019.08.30 at 00h 52m 59s.xml">
+      <configuration name="C:/Users/guneet.garg/IdeaProjects/Reporto/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_guneet_garg_IdeaProjects_Reporto_testng_xml - 2019.08.30 at 01h 31m 46s.xml">
+      <configuration name="C:/Users/guneet.garg/IdeaProjects/Reporto/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -307,7 +541,7 @@
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="3" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.7266776" />
@@ -338,7 +572,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor" />
     <MESSAGE value="refactor 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor 1" />
+    <MESSAGE value=".class" />
+    <MESSAGE value="class" />
+    <option name="LAST_COMMIT_MESSAGE" value="class" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="setValue">
@@ -576,13 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/functional/FunctionalSample1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -615,10 +844,17 @@
     <entry file="file://$PROJECT_DIR$/target/classes/startbootstrap-sb-admin-2-gh-pages/.travis.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/reporto/ReportoListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        <state relative-caret-position="-22">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

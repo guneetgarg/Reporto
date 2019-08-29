@@ -12,6 +12,12 @@ public class ReportoListener implements IReporter {
 
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
 
+        String OS = System.getProperty("os.name").toLowerCase();
+        System.out.println(OS);
+
+        System.out.println(System.getProperty("user.name"));
+
+
         for (ISuite s : suites) {
             Map<String, ISuiteResult> suiteResults = s.getResults();
 
