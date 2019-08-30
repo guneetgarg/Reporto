@@ -82,7 +82,7 @@
 									<div class="row no-gutters align-items-center">
 										<div class="col mr-2">
 											<div class="text-xs1 font-weight-bold text-primary text-uppercase mb-1">Total</div>
-											<div class="h3 mb-0 font-weight-bold text-gray-800">10</div>
+											<div class="h3 mb-0 font-weight-bold text-gray-800">totalData</div>
 										</div>
 										<div class="col-auto"> <i class="fas fa-calculator fa-3x text-gray-300"></i>
 										</div>
@@ -97,7 +97,7 @@
 									<div class="row no-gutters align-items-center">
 										<div class="col mr-2">
 											<div class="text-xs1 font-weight-bold text-success text-uppercase mb-1">Passed</div>
-											<div class="h3 mb-0 font-weight-bold text-gray-800">5</div>
+											<div class="h3 mb-0 font-weight-bold text-gray-800">passedData</div>
 										</div>
 										<div class="col-auto"> <i class="fas fa-smile-beam fa-3x text-gray-300"></i>
 										</div>
@@ -114,7 +114,7 @@
 											<div class="text-xs1 font-weight-bold text-info text-uppercase mb-1">Failed</div>
 											<div class="row no-gutters align-items-center">
 												<div class="col-auto">
-													<div class="h3 mb-0 mr-3 font-weight-bold text-gray-800">3</div>
+													<div class="h3 mb-0 mr-3 font-weight-bold text-gray-800">failedData</div>
 												</div>
 											</div>
 										</div>
@@ -131,7 +131,7 @@
 									<div class="row no-gutters align-items-center">
 										<div class="col mr-2">
 											<div class="text-xs1 font-weight-bold text-warning text-uppercase mb-1">Skipped</div>
-											<div class="h3 mb-0 font-weight-bold text-gray-800">2</div>
+											<div class="h3 mb-0 font-weight-bold text-gray-800">skippedData</div>
 										</div>
 										<div class="col-auto"> <i class="fas fa-running fa-3x text-gray-300"></i>
 										</div>
@@ -147,7 +147,7 @@
 							<div class="card shadow mb-4">
 								<!-- Card Header - Dropdown -->
 								<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-									<h6 class="m-0 font-weight-bold text-primary"><i class="fas fa-chart-pie fa-1x text-gray-400"></i> Graphical % Representation</h6>
+									<h6 class="m-0 font-weight-bold text-primary"><i class="fas fa-chart-area fa-1x text-gray-300"></i> Graphical % Representation</h6>
 								</div>
 								<!-- Card Body -->
 								<div class="card-body">
@@ -178,23 +178,23 @@
 											<tbody>
 												<tr>
 													<td>OS</td>
-													<td>Window 10</td>
+													<td>osData</td>
 												</tr>
 												<tr>
 													<td>User</td>
-													<td>guneet.garg</td>
+													<td>userData</td>
 												</tr>
 												<tr>
 													<td>Parallel Execution</td>
-													<td>False</td>
+													<td>parallelExecutionData</td>
 												</tr>
 												<tr>
 													<td>Start Time</td>
-													<td>2019-08-30</td>
+													<td>startTimeData</td>
 												</tr>
 												<tr>
 													<td>End Time</td>
-													<td>2019-08-30</td>
+													<td>endTimeData</td>
 												</tr>
 											</tbody>
 										</table>
@@ -231,7 +231,46 @@
 		<script src="vendor/chart.js/Chart.min.js"></script>
 		<!-- Page level custom scripts -->
 		<script src="js/demo/chart-area-demo.js"></script>
-		<script src="js/demo/chart-pie-demo.js"></script>
+		<script>
+		
+		
+		
+		Chart.defaults.global.defaultFontFamily = 'Nunito', '-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif';
+Chart.defaults.global.defaultFontColor = '#858796';
+
+// Pie Chart Example
+var ctx = document.getElementById("myPieChart");
+var myPieChart = new Chart(ctx, {
+  type: 'doughnut',
+  data: {
+    labels: ["Passed", "Failed", "Skipped"],
+    datasets: [{
+      data: [passedPerData, failedPerData, skippedPerData],
+       backgroundColor: ['#1cc88a', '#36b9cc', '#f6c23e'],
+      hoverBackgroundColor: ['#19ad78', '#2da0b1', '#d8a931'],
+      hoverBorderColor: "rgba(234, 236, 244, 1)",
+    }],
+  },
+  options: {
+    maintainAspectRatio: false,
+    tooltips: {
+      backgroundColor: "rgb(255,255,255)",
+      bodyFontColor: "#858796",
+      borderColor: '#dddfeb',
+      borderWidth: 1,
+      xPadding: 15,
+      yPadding: 15,
+      displayColors: false,
+      caretPadding: 30,
+    },
+    legend: {
+      display: false
+    },
+    cutoutPercentage: 40,
+  },
+});		
+		
+		</script>
 </body>
 
 </html>

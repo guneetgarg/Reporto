@@ -3,19 +3,20 @@ package com.reporto;
 import org.testng.*;
 import org.testng.annotations.Test;
 import org.testng.internal.TestNGMethod;
+import org.testng.reporters.Files;
 import org.testng.xml.XmlSuite;
 
+import java.io.*;
+import java.text.SimpleDateFormat;
 import java.util.*;
+
 
 public class ReportoListener implements IReporter {
 
 
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
 
-        String OS = System.getProperty("os.name").toLowerCase();
-        System.out.println(OS);
-
-        System.out.println(System.getProperty("user.name"));
+        System.out.println(xmlSuites.get(0).getParallel().toString());
 
 
         for (ISuite s : suites) {
@@ -36,13 +37,13 @@ public class ReportoListener implements IReporter {
 
                 if (testsPassed.size() > 0) {
                     for (ITestResult testResult : testsPassed) {
-                        System.out.println(testResult.getStartMillis());
-                        System.out.println(testResult.getInstanceName());
+                        //System.out.println(testResult.getStartMillis());
+                        System.out.print(testResult.getInstanceName());
                         System.out.println(testResult.getName());
-                        if (testResult.getMethod().getDescription() != null)
-                            System.out.println("<-" + testResult.getMethod().getDescription());
-                        else {
-                            System.out.println("^^^^^^^^^^^^^^^^");
+                        if (testResult.getMethod().getDescription() != null) {
+                            //     System.out.println("<-" + testResult.getMethod().getDescription());
+                        } else {
+                            //   System.out.println("^^^^^^^^^^^^^^^^");
                         }
                     }
                 }
@@ -74,10 +75,53 @@ public class ReportoListener implements IReporter {
 
             }
         }
-        System.out.println("passed " + StatsResult.passed);
-        System.out.println("failed " + StatsResult.failed);
-        System.out.println("skipped " + StatsResult.skipped);
-        System.out.println("ignored " + StatsResult.ignored);
-        System.out.println("total " + StatsResult.getTotal());
+
+        String fileName = "Metrics-" + new SimpleDateFormat("yyyyMMMdd-HHmm'.html'").format(new Date());
+        String tempFile = outputDirectory + File.separator + fileName;
+        File file1 = new File(tempFile);
+
+        byte[] data1 = new byte[0];
+        File file = new File("C:\\Users\\guneet.garg\\IdeaProjects\\Reporto\\src\\main\\resources\\startbootstrap-sb-admin-2-gh-pages\\index.html");
+        FileInputStream fis = null;
+        try {
+            fis = new FileInputStream(file);
+            data1 = new byte[(int) file.length()];
+            fis.read(data1);
+            fis.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        String fileContent = null;
+        try {
+            fileContent = new String(data1, "UTF-8");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+
+        fileContent = fileContent.replace("passedData", String.valueOf(StatsResult.passed));
+        fileContent = fileContent.replace("totalData", String.valueOf(StatsResult.getTotal()));
+        fileContent = fileContent.replace("failedData", String.valueOf(StatsResult.failed));
+        fileContent = fileContent.replace("skippedData", String.valueOf(StatsResult.skipped));
+
+        fileContent = fileContent.replace("osData", System.getProperty("os.name"));
+        fileContent = fileContent.replace("userData", System.getProperty("user.name"));
+        fileContent = fileContent.replace("parallelExecutionData", "");
+        fileContent = fileContent.replace("startTimeData", System.getProperty("os.name"));
+        fileContent = fileContent.replace("endTimeData", System.getProperty("os.name"));
+
+        fileContent = fileContent.replace("passedPerData", String.format("%.02f",(StatsResult.passed * 100.00 / StatsResult.getTotal())));
+        fileContent = fileContent.replace("failedPerData", String.format("%.02f",(StatsResult.failed * 100.00 / StatsResult.getTotal())));
+        fileContent = fileContent.replace("skippedPerData", String.format("%.02f",(StatsResult.skipped * 100.00 / StatsResult.getTotal())));
+
+        try {
+            Files.writeFile(fileContent, file1);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("TestNG Metrics " + file1 + " is created successfully");
+
+
     }
 }
