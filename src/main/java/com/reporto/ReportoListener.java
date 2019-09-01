@@ -9,6 +9,7 @@ import org.testng.xml.XmlSuite;
 import java.io.*;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.stream.Collectors;
 
 
 public class ReportoListener implements IReporter {
@@ -16,8 +17,8 @@ public class ReportoListener implements IReporter {
 
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
 
-      //  System.out.println(xmlSuites.get(0).getParallel().toString());
-
+        StatsResult.automationSuiteName = xmlSuites.get(0).getName();
+        StatsResult.parallelStatus = "" + xmlSuites.get(0).getParallel().isParallel();
 
         for (ISuite s : suites) {
             Map<String, ISuiteResult> suiteResults = s.getResults();
@@ -31,7 +32,7 @@ public class ReportoListener implements IReporter {
                 // System.out.println(testContext.getEndDate());
 
 
-                IResultMap passResult = testContext.getPassedTests();
+                IResultMap passResult = testContext.getFailedTests();
 
                 Set<ITestResult> testsPassed = passResult.getAllResults();
                 //  System.out.println(testContext.getPassedTests().size());
@@ -40,9 +41,24 @@ public class ReportoListener implements IReporter {
 
                 if (testsPassed.size() > 0) {
                     for (ITestResult testResult : testsPassed) {
+                        System.out.println("************************************************");
                         //System.out.println(testResult.getStartMillis());
- //                       System.out.print(testResult.getInstanceName());
-                        System.out.println(testResult.getName());
+                        String last[] = testResult.getInstanceName().split("\\.");
+                        System.out.println("Class Name " + last[last.length - 1]);
+                        System.out.println("Test Case Name " + testResult.getName());
+
+                        System.out.println("Error " + testResult.getThrowable());
+                        System.out.println("Error " + testResult.getThrowable().getStackTrace().toString());
+                        String packageName = "";
+                        int i = 0;
+                        while (last.length - 1 > i) {
+                            packageName += last[i];
+                            i++;
+                            if (last.length - 1 > i) {
+                                packageName += ".";
+                            }
+                        }
+                        System.out.println("Package Name " + packageName);
                         if (testResult.getMethod().getDescription() != null) {
                             //     System.out.println("<-" + testResult.getMethod().getDescription());
                         } else {
@@ -84,7 +100,8 @@ public class ReportoListener implements IReporter {
         File file1 = new File(tempFile);
 
         byte[] data1 = new byte[0];
-        File file = new File("C:\\Users\\guneet.garg\\IdeaProjects\\Reporto\\src\\main\\resources\\startbootstrap-sb-admin-2-gh-pages\\index.html");
+        //File file = new File(System.getProperty("user.dir") + "\\src\\main\\resources\\startbootstrap-sb-admin-2-gh-pages\\index.html");
+        File file = new File(System.getProperty("user.dir") + "/src/main/resources/startbootstrap-sb-admin-2-gh-pages/index.html");
         FileInputStream fis = null;
         try {
             fis = new FileInputStream(file);

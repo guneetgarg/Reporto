@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testSuite]" parallel="classes">
+  <test thread-count="5" name="testTest(failed)" parallel="classes">
+    <parameter name="sUsername" value="testuser_1"/>
+    <parameter name="sPassword" value="Test@123"/>
+    <classes>
+      <class name="com.test.sample.FunctionalSample1">
+        <methods>
+          <include name="TestD"/>
+          <include name="TestB"/>
+        </methods>
+      </class> <!-- com.test.sample.FunctionalSample1 -->
+    </classes>
+  </test> <!-- testTest(failed) -->
+</suite> <!-- Failed suite [testSuite] -->

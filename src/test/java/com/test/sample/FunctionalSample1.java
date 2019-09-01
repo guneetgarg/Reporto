@@ -13,7 +13,7 @@ public class FunctionalSample1 {
 
     @Test
     public void TestB() {
-        Assert.fail();
+        Assert.assertEquals("2","4","expected 3 but got 4");
     }
 
 
