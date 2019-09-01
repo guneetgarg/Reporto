@@ -16,7 +16,7 @@ public class ReportoListener implements IReporter {
 
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
 
-        System.out.println(xmlSuites.get(0).getParallel().toString());
+      //  System.out.println(xmlSuites.get(0).getParallel().toString());
 
 
         for (ISuite s : suites) {
@@ -24,21 +24,24 @@ public class ReportoListener implements IReporter {
 
             for (String testName : suiteResults.keySet()) {
 
-
                 ISuiteResult suiteResult = suiteResults.get(testName);
-
                 ITestContext testContext = suiteResult.getTestContext();
+
+                //  System.out.println(testContext.getStartDate());
+                // System.out.println(testContext.getEndDate());
+
+
                 IResultMap passResult = testContext.getPassedTests();
 
                 Set<ITestResult> testsPassed = passResult.getAllResults();
-                System.out.println(testContext.getPassedTests().size());
-                System.out.println(testContext.getFailedTests().size());
-                System.out.println(testContext.getSkippedTests().size());
+                //  System.out.println(testContext.getPassedTests().size());
+                //  System.out.println(testContext.getFailedTests().size());
+                //  System.out.println(testContext.getSkippedTests().size());
 
                 if (testsPassed.size() > 0) {
                     for (ITestResult testResult : testsPassed) {
                         //System.out.println(testResult.getStartMillis());
-                        System.out.print(testResult.getInstanceName());
+ //                       System.out.print(testResult.getInstanceName());
                         System.out.println(testResult.getName());
                         if (testResult.getMethod().getDescription() != null) {
                             //     System.out.println("<-" + testResult.getMethod().getDescription());
@@ -70,7 +73,7 @@ public class ReportoListener implements IReporter {
                 StatsResult.retried += retriedPerTest;
                 StatsResult.ignored += testContext.getExcludedMethods().size();
 
-                System.out.println("Testng Test Name " + testContext.getName());//<test name="testTest">
+//                System.out.println("Testng Test Name " + testContext.getName());//<test name="testTest">
 
 
             }
@@ -106,13 +109,13 @@ public class ReportoListener implements IReporter {
 
         fileContent = fileContent.replace("osData", System.getProperty("os.name"));
         fileContent = fileContent.replace("userData", System.getProperty("user.name"));
-        fileContent = fileContent.replace("parallelExecutionData", "");
         fileContent = fileContent.replace("startTimeData", System.getProperty("os.name"));
-        fileContent = fileContent.replace("endTimeData", System.getProperty("os.name"));
+        fileContent = fileContent.replace("endTimeData", System.getProperty("java.version"));
+        fileContent = fileContent.replace("javaVersionnData", System.getProperty("java.version"));
 
-        fileContent = fileContent.replace("passedPerData", String.format("%.02f",(StatsResult.passed * 100.00 / StatsResult.getTotal())));
-        fileContent = fileContent.replace("failedPerData", String.format("%.02f",(StatsResult.failed * 100.00 / StatsResult.getTotal())));
-        fileContent = fileContent.replace("skippedPerData", String.format("%.02f",(StatsResult.skipped * 100.00 / StatsResult.getTotal())));
+        fileContent = fileContent.replace("passedPerData", String.format("%.02f", (StatsResult.passed * 100.00 / StatsResult.getTotal())));
+        fileContent = fileContent.replace("failedPerData", String.format("%.02f", (StatsResult.failed * 100.00 / StatsResult.getTotal())));
+        fileContent = fileContent.replace("skippedPerData", String.format("%.02f", (StatsResult.skipped * 100.00 / StatsResult.getTotal())));
 
         try {
             Files.writeFile(fileContent, file1);
