@@ -1,4 +1,4 @@
-package functional;
+package com.test.sample;
 
 
 import org.testng.Assert;
