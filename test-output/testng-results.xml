@@ -2,16 +2,16 @@
 <testng-results skipped="1" failed="3" ignored="0" total="7" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation Reporto" duration-ms="10119" started-at="2019-09-02T11:04:41 IST" finished-at="2019-09-02T11:04:52 IST">
+  <suite name="Automation Reporto" duration-ms="100128" started-at="2019-09-02T12:00:07 IST" finished-at="2019-09-02T12:01:47 IST">
     <groups>
     </groups>
-    <test name="testTest" duration-ms="10119" started-at="2019-09-02T11:04:41 IST" finished-at="2019-09-02T11:04:52 IST">
+    <test name="testTest" duration-ms="100128" started-at="2019-09-02T12:00:07 IST" finished-at="2019-09-02T12:01:47 IST">
       <class name="com.test.sample.FunctionalSample1">
-        <test-method status="PASS" signature="TestA()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="TestA" duration-ms="10024" started-at="2019-09-02T11:04:42 IST" description="Launches the WordPress site" finished-at="2019-09-02T11:04:52 IST">
+        <test-method status="PASS" signature="TestA()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="TestA" duration-ms="20" started-at="2019-09-02T12:00:07 IST" description="Launches the WordPress site" finished-at="2019-09-02T12:00:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestA -->
-        <test-method status="FAIL" signature="TestB()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="TestB" duration-ms="8" started-at="2019-09-02T11:04:52 IST" finished-at="2019-09-02T11:04:52 IST">
+        <test-method status="FAIL" signature="TestB()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="TestB" duration-ms="6" started-at="2019-09-02T12:00:07 IST" finished-at="2019-09-02T12:00:07 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected 3 but got 4 expected [4] but found [2]]]>
@@ -22,7 +22,7 @@ at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
-at com.test.sample.FunctionalSample1.TestB(FunctionalSample1.java:17)
+at com.test.sample.FunctionalSample1.TestB(FunctionalSample1.java:16)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -56,11 +56,11 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestB -->
-        <test-method status="PASS" signature="TestC()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="TestC" duration-ms="0" started-at="2019-09-02T11:04:52 IST" finished-at="2019-09-02T11:04:52 IST">
+        <test-method status="PASS" signature="TestC()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="TestC" duration-ms="100001" started-at="2019-09-02T12:00:07 IST" finished-at="2019-09-02T12:01:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestC -->
-        <test-method status="FAIL" signature="TestD()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="TestD" duration-ms="0" started-at="2019-09-02T11:04:52 IST" finished-at="2019-09-02T11:04:52 IST">
+        <test-method status="FAIL" signature="TestD()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="TestD" duration-ms="1" started-at="2019-09-02T12:01:47 IST" finished-at="2019-09-02T12:01:47 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -69,7 +69,7 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
               <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.fail(Assert.java:102)
-at com.test.sample.FunctionalSample1.TestD(FunctionalSample1.java:28)
+at com.test.sample.FunctionalSample1.TestD(FunctionalSample1.java:29)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -103,11 +103,11 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestD -->
-        <test-method status="PASS" signature="TestE()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="TestE" duration-ms="0" started-at="2019-09-02T11:04:52 IST" finished-at="2019-09-02T11:04:52 IST">
+        <test-method status="PASS" signature="TestE()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="TestE" duration-ms="1" started-at="2019-09-02T12:01:47 IST" finished-at="2019-09-02T12:01:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestE -->
-        <test-method status="FAIL" signature="TestF()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="TestF" duration-ms="1" started-at="2019-09-02T11:04:52 IST" finished-at="2019-09-02T11:04:52 IST">
+        <test-method status="FAIL" signature="TestF()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="TestF" duration-ms="0" started-at="2019-09-02T12:01:47 IST" finished-at="2019-09-02T12:01:47 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -116,7 +116,7 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
               <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.fail(Assert.java:102)
-at com.test.sample.FunctionalSample1.TestF(FunctionalSample1.java:38)
+at com.test.sample.FunctionalSample1.TestF(FunctionalSample1.java:39)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -150,14 +150,14 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestF -->
-        <test-method status="SKIP" signature="testCaseSkipException()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="testCaseSkipException" duration-ms="0" started-at="2019-09-02T11:04:52 IST" finished-at="2019-09-02T11:04:52 IST">
+        <test-method status="SKIP" signature="testCaseSkipException()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="testCaseSkipException" duration-ms="1" started-at="2019-09-02T12:01:47 IST" finished-at="2019-09-02T12:01:47 IST">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping this exception]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Skipping this exception
-at com.test.sample.FunctionalSample1.testCaseSkipException(FunctionalSample1.java:47)
+at com.test.sample.FunctionalSample1.testCaseSkipException(FunctionalSample1.java:48)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

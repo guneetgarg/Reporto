@@ -9,7 +9,6 @@ public class FunctionalSample1 {
 
     @Test(description = "Launches the WordPress site")
     public void TestA() throws InterruptedException {
-        Thread.sleep(10000);
     }
 
     @Test
@@ -19,7 +18,9 @@ public class FunctionalSample1 {
 
 
     @Test
-    public void TestC() {
+    public void TestC() throws InterruptedException {
+        Thread.sleep(100000);
+
 
     }
 
@@ -36,7 +37,7 @@ public class FunctionalSample1 {
     public void TestF() {
         try {
             Assert.fail();
-        }catch (Exception e){
+        } catch (Exception e) {
             e.getStackTrace();
         }
     }

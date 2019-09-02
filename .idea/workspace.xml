@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="090fcf57-8533-45fb-81fe-2e21c95b3f0f" name="Default Changelist" comment="Description">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/reporto/ReportoListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reporto/ReportoListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/test/sample/FunctionalSample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/sample/FunctionalSample1.java" afterDir="false" />
@@ -10,16 +9,11 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/sample/FunctionalSample1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/sample/FunctionalSample1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Automation Reporto/testTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Automation Reporto/testTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Automation Reporto/testTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Automation Reporto/testTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Automation Reporto/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Automation Reporto/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.test.sample.FunctionalSample1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.test.sample.FunctionalSample1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Automation Reporto/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Automation Reporto/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/Automation Reporto/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Automation Reporto/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/Automation Reporto/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Automation Reporto/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Automation Reporto/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Automation Reporto/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

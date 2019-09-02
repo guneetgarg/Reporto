@@ -12,6 +12,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -37,8 +38,8 @@ public class ReportoListener extends TestListenerAdapter implements IReporter, I
                 ISuiteResult suiteResult = suiteResults.get(testName);
                 ITestContext testContext = suiteResult.getTestContext();
 
-                //  System.out.println(testContext.getStartDate());
-                // System.out.println(testContext.getEndDate());
+                System.out.println("Suite Start Time" + testContext.getStartDate());
+                System.out.println("Suite End Time" + testContext.getEndDate());
 
                 passedTestCase(testContext.getPassedTests().getAllResults(), "pass");
                 passedTestCase(testContext.getFailedTests().getAllResults(), "fail");
@@ -122,7 +123,14 @@ public class ReportoListener extends TestListenerAdapter implements IReporter, I
         if (iTestResults.size() > 0) {
             for (ITestResult testResult : iTestResults) {
                 System.out.println("**************** " + type + " ********************************");
-                System.out.println(testResult.getStartMillis());
+                //       System.out.println(testResult.getStartMillis());
+
+
+                DateFormat simple = new SimpleDateFormat("dd MMM yyyy HH:mm:ss:SSS Z");
+                Date result = new Date(testResult.getStartMillis());
+                System.out.println("Date " + simple.format(result));
+
+
                 String last[] = testResult.getInstanceName().split("\\.");
                 System.out.println("Class Name " + last[last.length - 1]);
                 System.out.println("Test Case Name " + testResult.getName());
