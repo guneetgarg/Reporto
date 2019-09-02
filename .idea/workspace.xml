@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="090fcf57-8533-45fb-81fe-2e21c95b3f0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Reporto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+    <list default="true" id="090fcf57-8533-45fb-81fe-2e21c95b3f0f" name="Default Changelist" comment="Description">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/reporto/ReportoListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reporto/ReportoListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/test/sample/FunctionalSample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/sample/FunctionalSample1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/functional/FunctionalSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/functional/FunctionalSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/reporto/ReportoListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reporto/ReportoListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reporto/StatsResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reporto/StatsResult.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/sample/FunctionalSample1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/sample/FunctionalSample1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/functional/FunctionalSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/functional/FunctionalSample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Automation Reporto/testTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Automation Reporto/testTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Automation Reporto/testTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Automation Reporto/testTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Automation Reporto/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Automation Reporto/testng-failed.xml" afterDir="false" />
@@ -22,12 +17,10 @@
       <change beforePath="$PROJECT_DIR$/test-output/old/Automation Reporto/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Automation Reporto/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/Automation Reporto/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Automation Reporto/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/Automation Reporto/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Automation Reporto/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Automation Reporto/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Automation Reporto/testng.xml.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/Automation Reporto/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Automation Reporto/toc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +52,8 @@
   <component name="ProjectId" id="1QFBQoaGSnYTz70KAyGBhuDmQJt" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -71,6 +65,7 @@
       <recent name="functional" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\guneet.garg\IdeaProjects\Reporto\src\main\resources" />
     </key>
   </component>
@@ -162,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567168523330</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Description">
+      <created>1567399744876</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567399744876</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -209,7 +211,8 @@
     <MESSAGE value=".class" />
     <MESSAGE value="class" />
     <MESSAGE value=" Graphical % Representation enhanced" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Graphical % Representation enhanced" />
+    <MESSAGE value="Description" />
+    <option name="LAST_COMMIT_MESSAGE" value="Description" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

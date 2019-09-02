@@ -9,6 +9,7 @@
         <methods>
           <include name="testCaseSkipException"/>
           <include name="TestD"/>
+          <include name="TestF"/>
           <include name="TestB"/>
         </methods>
       </class> <!-- com.test.sample.FunctionalSample1 -->

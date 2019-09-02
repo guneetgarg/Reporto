@@ -33,10 +33,18 @@ public class FunctionalSample1 {
     }
 
     @Test
+    public void TestF() {
+        try {
+            Assert.fail();
+        }catch (Exception e){
+            e.getStackTrace();
+        }
+    }
+
+    @Test
     public void testCaseSkipException() {
         System.out.println("Im in skip exception");
         throw new SkipException("Skipping this exception");
     }
-
 
 }
