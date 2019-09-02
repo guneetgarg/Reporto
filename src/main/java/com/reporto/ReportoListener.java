@@ -143,9 +143,9 @@ public class ReportoListener extends TestListenerAdapter implements IReporter, I
                 }
                 System.out.println("Package Name " + packageName);
                 if (testResult.getMethod().getDescription() != null) {
-                    //     System.out.println("<-" + testResult.getMethod().getDescription());
+                    System.out.println("<-" + testResult.getMethod().getDescription());
                 } else {
-                    //   System.out.println("^^^^^^^^^^^^^^^^");
+                    System.out.println("^^^^^^^^^^^^^^^^");
                 }
             }
         }
@@ -177,9 +177,9 @@ public class ReportoListener extends TestListenerAdapter implements IReporter, I
                 }
                 System.out.println("Package Name " + packageName);
                 if (testResult.getMethod().getDescription() != null) {
-                    //     System.out.println("<-" + testResult.getMethod().getDescription());
+                    System.out.println("<-" + testResult.getMethod().getDescription());
                 } else {
-                    //   System.out.println("^^^^^^^^^^^^^^^^");
+                    System.out.println("^^^^^^^^^^^^^^^^");
                 }
             }
         }
@@ -211,9 +211,9 @@ public class ReportoListener extends TestListenerAdapter implements IReporter, I
                 }
                 System.out.println("Package Name " + packageName);
                 if (testResult.getMethod().getDescription() != null) {
-                    //     System.out.println("<-" + testResult.getMethod().getDescription());
+                    System.out.println("<-" + testResult.getMethod().getDescription());
                 } else {
-                    //   System.out.println("^^^^^^^^^^^^^^^^");
+                    System.out.println("^^^^^^^^^^^^^^^^");
                 }
             }
         }
