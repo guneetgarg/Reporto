@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Automation Reporto" parallel="classes">
+<suite name="Automation Reporto">
     <!--<listeners>
         <listener class-name="com.reporto.ReportoListener"></listener>
     </listeners>-->
@@ -12,12 +12,12 @@
         </classes>
     </test>
 
-   <!-- <test name="testAAAATest">
+  <!--  <test name="testAAAATest">
         <classes>
             <class name="functional.FunctionalSample"/>
             <class name="com.test.sample.FunctionalSample1"/>
         </classes>
-    </test>--> <!-- Test -->
+    </test>-->
 </suite> <!-- Suite -->
 
-<!--https://github.com/BlackrockDigital/startbootstrap-sb-admin-2-->
+        <!--https://github.com/BlackrockDigital/startbootstrap-sb-admin-2-->

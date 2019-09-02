@@ -9,24 +9,24 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Automation Reporto</th></tr>
-<tr><td><a href="#t0">testTest</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">110</td><td></td><td></td></tr>
+<tr><td><a href="#t0">testTest</a></td><td class="num">3</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">11,936</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Automation Reporto</th></tr></tbody><tbody id="t0"><tr><th colspan="4">testTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.test.sample.FunctionalSample1</td><td><a href="#m0">TestB</a></td><td rowspan="1">1567338913359</td><td rowspan="1">7</td></tr><tr class="failedeven"><td><a href="#m1">TestD</a></td><td rowspan="1">1567338913379</td><td rowspan="1">1</td></tr><tr><th colspan="4">testTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.test.sample.FunctionalSample1</td><td><a href="#m2">TestA</a></td><td rowspan="1">1567338913344</td><td rowspan="1">10</td></tr><tr class="passedeven"><td><a href="#m3">TestC</a></td><td rowspan="1">1567338913376</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m4">TestE</a></td><td rowspan="1">1567338913383</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Automation Reporto</th></tr></tbody><tbody id="t0"><tr><th colspan="4">testTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.test.sample.FunctionalSample1</td><td><a href="#m0">TestB</a></td><td rowspan="1">1567363405038</td><td rowspan="1">4</td></tr><tr class="failedeven"><td><a href="#m1">TestD</a></td><td rowspan="1">1567363406206</td><td rowspan="1">0</td></tr><tr><th colspan="4">testTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.test.sample.FunctionalSample1</td><td><a href="#m2">testCaseSkipException</a></td><td rowspan="1">1567363406758</td><td rowspan="1">0</td></tr><tr><th colspan="4">testTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.test.sample.FunctionalSample1</td><td><a href="#m3">TestA</a></td><td rowspan="1">1567363394958</td><td rowspan="1">10076</td></tr><tr class="passedeven"><td><a href="#m4">TestC</a></td><td rowspan="1">1567363406206</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m5">TestE</a></td><td rowspan="1">1567363406756</td><td rowspan="1">0</td></tr></tbody>
 </table>
 <h2>testTest</h2><h3 id="m0">com.test.sample.FunctionalSample1#TestB</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected 3 but got 4 expected [4] but found [2]
-	at com.test.sample.FunctionalSample1.TestB(FunctionalSample1.java:16)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at com.test.sample.FunctionalSample1.TestB(FunctionalSample1.java:17)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">com.test.sample.FunctionalSample1#TestD</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
-	at com.test.sample.FunctionalSample1.TestD(FunctionalSample1.java:27)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.test.sample.FunctionalSample1#TestA</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.test.sample.FunctionalSample1#TestC</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.test.sample.FunctionalSample1#TestE</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at com.test.sample.FunctionalSample1.TestD(FunctionalSample1.java:28)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.test.sample.FunctionalSample1#testCaseSkipException</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping this exception
+	at com.test.sample.FunctionalSample1.testCaseSkipException(FunctionalSample1.java:38)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.test.sample.FunctionalSample1#TestA</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.test.sample.FunctionalSample1#TestC</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.test.sample.FunctionalSample1#TestE</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

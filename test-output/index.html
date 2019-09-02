@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                    <span class="method-stats">6 methods, 2 failed,  1 skipped,  3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -111,6 +111,20 @@
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Automation_Reporto -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Automation_Reporto" class="hide-methods skipped suite-Automation_Reporto"> (hide)</a> <!-- hide-methods skipped suite-Automation_Reporto -->
+                      <a href="#" panel-name="suite-Automation_Reporto" class="show-methods skipped suite-Automation_Reporto"> (show)</a> <!-- show-methods skipped suite-Automation_Reporto -->
+                    </span>
+                    <div class="method-list-content skipped suite-Automation_Reporto">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Reporto" title="com.test.sample.FunctionalSample1" hash-for-method="testCaseSkipException">testCaseSkipException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Automation_Reporto -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -158,11 +172,9 @@
                   </a> <!-- TestB -->
                   <span class="method-name">TestB</span>
                   <div class="stack-trace">java.lang.AssertionError: expected 3 but got 4 expected [4] but found [2]
-	at com.test.sample.FunctionalSample1.TestB(FunctionalSample1.java:16)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 16 stack frames
+	at com.test.sample.FunctionalSample1.TestB(FunctionalSample1.java:17)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -172,16 +184,34 @@
                   </a> <!-- TestD -->
                   <span class="method-name">TestD</span>
                   <div class="stack-trace">java.lang.AssertionError: null
-	at com.test.sample.FunctionalSample1.TestD(FunctionalSample1.java:27)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 14 stack frames
+	at com.test.sample.FunctionalSample1.TestD(FunctionalSample1.java:28)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Automation_Reporto-class-failed -->
+          <div class="suite-Automation_Reporto-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.test.sample.FunctionalSample1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseSkipException">
+                  </a> <!-- testCaseSkipException -->
+                  <span class="method-name">testCaseSkipException</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping this exception
+	at com.test.sample.FunctionalSample1.testCaseSkipException(FunctionalSample1.java:38)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Reporto-class-skipped -->
           <div class="suite-Automation_Reporto-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -222,8 +252,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Automation Reporto&quot; parallel=&quot;classes&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;testTest&quot; parallel=&quot;classes&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Automation Reporto&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;testTest&quot;&gt;
     &lt;parameter name=&quot;sUsername&quot; value=&quot;testuser_1&quot;/&gt;
     &lt;parameter name=&quot;sPassword&quot; value=&quot;Test@123&quot;/&gt;
     &lt;classes&gt;
@@ -267,32 +297,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'TestA')
 data.setCell(0, 2, 'com.test.sample.FunctionalSample1')
-data.setCell(0, 3, 10);
+data.setCell(0, 3, 10076);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'TestB')
 data.setCell(1, 2, 'com.test.sample.FunctionalSample1')
-data.setCell(1, 3, 7);
+data.setCell(1, 3, 4);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TestC')
+data.setCell(2, 1, 'TestE')
 data.setCell(2, 2, 'com.test.sample.FunctionalSample1')
-data.setCell(2, 3, 1);
+data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'TestD')
+data.setCell(3, 1, 'TestC')
 data.setCell(3, 2, 'com.test.sample.FunctionalSample1')
-data.setCell(3, 3, 1);
+data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'TestE')
+data.setCell(4, 1, 'TestD')
 data.setCell(4, 2, 'com.test.sample.FunctionalSample1')
 data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCaseSkipException')
+data.setCell(5, 2, 'com.test.sample.FunctionalSample1')
+data.setCell(5, 3, 0);
 window.suiteTableData['Automation_Reporto']= { tableData: data, tableDiv: 'times-div-Automation_Reporto'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 ms</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Automation_Reporto">
               </div> <!-- times-div-Automation_Reporto -->
             </div> <!-- times-div -->
@@ -327,21 +361,25 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">TestB</span>
-                <span class="method-start">15 ms</span>
+                <span class="method-start">10080 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestC</span>
-                <span class="method-start">32 ms</span>
+                <span class="method-start">11248 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">TestD</span>
-                <span class="method-start">35 ms</span>
+                <span class="method-start">11248 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestE</span>
-                <span class="method-start">39 ms</span>
+                <span class="method-start">11798 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseSkipException</span>
+                <span class="method-start">11800 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
