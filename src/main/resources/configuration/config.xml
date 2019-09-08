@@ -4,6 +4,18 @@
             <first>paulo</first>
             <last>caroli</last>
         </name>
+        <name>
+            <first>Guneet</first>
+            <last>Garg</last>
+        </name>
         <url>www.caroli.org</url>
     </author1>
+    <Wrapper>
+        <list>
+            <names>John</names>
+            <names>Paul</names>
+            <names>George</names>
+            <names>Ringo</names>
+        </list>
+    </Wrapper>
 </author>
