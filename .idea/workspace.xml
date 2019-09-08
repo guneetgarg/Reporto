@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="090fcf57-8533-45fb-81fe-2e21c95b3f0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/configuration/aa.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/configuration/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/configuration/author.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/functional/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/functional/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/javainterviewpoint/XmlFileToJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javainterviewpoint/XmlFileToJson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/configuration/author.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/functional/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/functional/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -53,11 +50,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="C:\Users\guneet.garg\IdeaProjects\Reporto\src\main\resources" />
       <recent name="$PROJECT_DIR$/src/configuration" />
       <recent name="$PROJECT_DIR$/src/configuration/STG" />
-      <recent name="$PROJECT_DIR$/src/configuration/PROD" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="functional" />
@@ -79,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.XmlFileToJson">
     <configuration name="ConfigReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional.ConfigReader" />
       <module name="Reporto" />
@@ -164,8 +161,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.XmlFileToJson" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.ConfigReader" />
         <item itemvalue="Application.ConfigurationReader" />
         <item itemvalue="TestNG./Users/guneetgarg/IdeaProjects/Reporto/testng.xml" />

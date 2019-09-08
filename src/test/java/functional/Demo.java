@@ -1,35 +1,34 @@
 package functional;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
-import com.google.gson.Gson;
-import com.sun.xml.internal.fastinfoset.sax.Properties;
-import org.apache.commons.io.IOUtils;
-import org.apache.commons.lang.StringEscapeUtils;
-import org.json.JSONObject;
-import org.json.XML;
-import pl.jalokim.propertiestojson.util.PropertiesToJsonConverter;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.InputStream;
-import java.util.*;
+import java.util.Properties;
 
 public class Demo {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) {
 
-        String pathFile = System.getProperty("user.dir") + File.separator + "src" + File.separator + "main" + File.separator + "resources" + File.separator + "config.properties";
+        try (InputStream input = Demo.class.getClassLoader().getResourceAsStream("config.properties")) {
 
-        System.out.println(pathFile);
+            Properties prop = new Properties();
 
-        File file = new File("/Users/guneetgarg/IdeaProjects/Reporto/src/main/resources/config.properties");
-        FileInputStream fileInput = new FileInputStream(file);
+            if (input == null) {
+                System.out.println("Sorry, unable to find config.properties");
+                return;
+            }
 
+            //load a properties file from class path, inside static method
+            prop.load(input);
 
-        Properties properties = new Properties();
-        properties.load(Demo.class.getResourceAsStream("config.properties"));
+            //get the property value and print it out
+            System.out.println(prop.getProperty("db.url"));
+            System.out.println(prop.getProperty("db.user"));
+            System.out.println(prop.getProperty("db.password"));
 
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
 
     }
+
 }
