@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="090fcf57-8533-45fb-81fe-2e21c95b3f0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86b739b0d377c7f0e5b92a65bfd61879aff40176" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86b739b0d377c7f0e5b92a65bfd61879aff40176" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a409b98dc051b7e3980ba239dc5d545105c91772" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a8183e81cf544b9ae515a1407dc4a16565e43465" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/functional/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/functional/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/functional/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/functional/Demo.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.XmlFileToJson">
+  <component name="RunManager" selected="Application.Demo">
     <configuration name="ConfigReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional.ConfigReader" />
       <module name="Reporto" />
@@ -161,8 +163,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.XmlFileToJson" />
         <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.XmlFileToJson" />
         <item itemvalue="Application.ConfigReader" />
         <item itemvalue="Application.ConfigurationReader" />
         <item itemvalue="TestNG./Users/guneetgarg/IdeaProjects/Reporto/testng.xml" />
@@ -269,11 +271,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/functional/ConfigurationReader.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar!/org/apache/commons/configuration/ConfigurationFactory.class</url>
           <line>66</line>
           <option name="timeStamp" value="19" />
@@ -282,11 +279,6 @@
           <url>jar://$MAVEN_REPOSITORY$/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar!/org/apache/commons/configuration/ConfigurationFactory.class</url>
           <line>63</line>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/functional/ConfigReader.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

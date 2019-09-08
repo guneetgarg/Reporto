@@ -20,11 +20,9 @@ O
 src/configuration/QA/author.xml,5/c/5ce5e79663d7ec863553bcfa40cc3d31635d4871
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
-Z
-*src/test/java/functional/ConfigReader.java,a/8/a8183e81cf544b9ae515a1407dc4a16565e43465
-a
-1src/test/java/functional/ConfigurationReader.java,a/4/a409b98dc051b7e3980ba239dc5d545105c91772
 g
 7src/main/java/com/javainterviewpoint/XmlFileToJson.java,8/6/86b739b0d377c7f0e5b92a65bfd61879aff40176
 R
 "src/test/java/functional/Demo.java,d/5/d5c95c3bbe941edacb6ca07650ede2e583931e8f
+A
+config.properties,5/b/5b4197fb87e6e5ff44afbf358a3bd23a35f56456

@@ -1,15 +1,22 @@
 
+[
+squid:S106-"9Replace this use of System.out or System.err by a logger.(„‹¢ãøÿÿÿÿ8Í†„‘Ñ-
+Fsquid:S11484"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¾ƒ–Ğ-
+[
+squid:S106:"9Replace this use of System.out or System.err by a logger.(õæ€øÿÿÿÿ8Âè÷Ñ-
+[
+squid:S1060"9Replace this use of System.out or System.err by a logger.(¶À—’üÿÿÿÿ8äß…Ñ-
+usquid:UselessImportCheck"KRemove this unused import 'com.fasterxml.jackson.dataformat.xml.XmlMapper'.(Šµ—8§¢—Ñ-
+Wsquid:S4719 "9Replace charset name argument with StandardCharsets.UTF_8(¿ÜÎÉ8§¢—Ñ-
+bsquid:S21477"DCombine this catch with the one at line 51, which has the same body.(ï­£Ä8¾ƒ–Ğ-
+Fsquid:S11488"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¾ƒ–Ğ-
 T
 squid:S106'"9Replace this use of System.out or System.err by a logger.(ëè™óøÿÿÿÿ
-Wsquid:S4719"9Replace charset name argument with StandardCharsets.UTF_8(ö†¼8´Œú•Ğ-
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ö‚‚8Ş»„–Ğ-
-Fsquid:S11480"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¾ƒ–Ğ-
-[
-squid:S106("9Replace this use of System.out or System.err by a logger.(‚é€Şûÿÿÿÿ8¾ƒ–Ğ-
-gsquid:S2147-"DCombine this catch with the one at line 43, which has the same body.(°êã§ıÿÿÿÿ8¾ƒ–Ğ-
-_squid:S1075"ARefactor your code to get this URI from a customizable parameter.(ö†¼8»ì–Ğ-
-Ssquid:S1481"0Remove this unused "classLoader" local variable.(ú˜ ùÿÿÿÿ8Ş»„–Ğ-
-Fsquid:S1148,"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¾ƒ–Ğ-
-bsquid:S1854"?Remove this useless assignment to local variable "classLoader".(ú˜ ùÿÿÿÿ8Ş»„–Ğ-
-bsquid:S2147/"DCombine this catch with the one at line 43, which has the same body.(ï­£Ä8¾ƒ–Ğ-
-Fsquid:S1148."#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¾ƒ–Ğ-
+gsquid:UselessImportCheck
+"<Remove this unused import 'org.apache.commons.io.FileUtils'.(À¿Ù´8§¢—Ñ-
+V
+squid:S106("9Replace this use of System.out or System.err by a logger.(¢àóÄ8îŠƒ‘Ñ-
+Fsquid:S11486"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¾ƒ–Ğ-
+gsquid:S21475"DCombine this catch with the one at line 51, which has the same body.(°êã§ıÿÿÿÿ8¾ƒ–Ğ-
+V
+squid:S106+"9Replace this use of System.out or System.err by a logger.(õ—Öÿ8äÅÍÑ-
