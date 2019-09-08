@@ -1,15 +1,13 @@
 <author>
-    <author1>
-        <name>
-            <first>paulo</first>
-            <last>caroli</last>
-        </name>
-        <name>
-            <first>Guneet</first>
-            <last>Garg</last>
-        </name>
-        <url>www.caroli.org</url>
-    </author1>
+    <name>
+        <first>paulo</first>
+        <last>caroli</last>
+    </name>
+    <name>
+        <first>Guneet</first>
+        <last>Garg</last>
+    </name>
+    <url>www.caroli.org</url>
     <Wrapper>
         <list>
             <names>John</names>

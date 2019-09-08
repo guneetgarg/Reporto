@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="090fcf57-8533-45fb-81fe-2e21c95b3f0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/functional/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javainterviewpoint/XmlFileToJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javainterviewpoint/XmlFileToJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/configuration/author.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configuration/author.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/configuration/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configuration/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/javainterviewpoint/XmlFileToJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javainterviewpoint/XmlFileToJson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/configuration/author.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/configuration/author.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/configuration/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/configuration/config.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.XmlFileToJson">
     <configuration name="ConfigReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional.ConfigReader" />
       <module name="Reporto" />
@@ -161,8 +161,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.XmlFileToJson" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.ConfigReader" />
         <item itemvalue="Application.ConfigurationReader" />
         <item itemvalue="TestNG./Users/guneetgarg/IdeaProjects/Reporto/testng.xml" />

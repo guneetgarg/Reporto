@@ -1,9 +1,12 @@
 package com.javainterviewpoint;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
 
+import com.fasterxml.jackson.databind.SerializationFeature;
 import org.apache.commons.io.FileUtils;
 
 import com.fasterxml.jackson.core.JsonParseException;
@@ -11,6 +14,9 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+import org.apache.commons.io.IOUtils;
+import org.json.JSONObject;
+import org.json.XML;
 
 public class XmlFileToJson {
     public static void main(String[] args) {
@@ -18,33 +24,27 @@ public class XmlFileToJson {
     }
 
     public void main() {
-        ClassLoader classLoader = this.getClass().getClassLoader();
-        //File configFile = new File(classLoader.getResource("config.xml").getFile());
-
-        String data = "";
         try {
-            // Read the student.xml
-            data = FileUtils.readFileToString(new File(System.getProperty("user.dir") + File.separator
-                    + "src" + File.separator + "main" + File.separator + "resources" + File.separator + "configuration" + File.separator + "config.xml"), "UTF-8");
+            InputStream inputStream = new FileInputStream(new File(
+                    System.getProperty("user.dir") + File.separator
+                            + "src" + File.separator + "main" + File.separator + "resources" + File.separator + "configuration" + File.separator + "config.xml"));
 
-            // Create a new XmlMapper to read XML tags
-            XmlMapper xmlMapper = new XmlMapper();
-
-            //Reading the XML
-            JsonNode jsonNode = xmlMapper.readTree(data.getBytes());
-
-            //Create a new ObjectMapper
-            ObjectMapper objectMapper = new ObjectMapper();
-
-            String value = objectMapper.writeValueAsString(jsonNode);
+            String xml = IOUtils.toString(inputStream, "UTF-8");
+            JSONObject jObject = XML.toJSONObject(xml);
+            ObjectMapper mapper = new ObjectMapper();
+            mapper.enable(SerializationFeature.INDENT_OUTPUT);
+            Object json = mapper.readValue(jObject.toString(), Object.class);
+            String output = mapper.writeValueAsString(json);
 
             System.out.println("*** Converting XML to JSON ***");
-            System.out.println(value);
+            System.out.println(output);
 
-            JsonNode node = new ObjectMapper().readTree(value);
-            System.out.println(node.findValue("first").textValue());
+            JsonNode node = new ObjectMapper().readTree(output);
+            System.out.println(node.findValue("last").textValue());
 
-            List<JsonNode> jsonNode1 = node.findValues("first");
+            System.out.println(node.path("author").path("url").textValue());
+
+            List<JsonNode> jsonNode1 = node.findValues("firstcvxz¸xc");
             System.out.println("Size " + jsonNode1.size());
 
 
