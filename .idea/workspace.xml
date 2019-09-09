@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="090fcf57-8533-45fb-81fe-2e21c95b3f0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Util/Wrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/functional/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/configuration/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configuration/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/functional/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/functional/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Reporto.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/Reporto.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/configuration/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/configuration/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/functional/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/functional/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/Wrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/Wrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/functional/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/functional/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Util/Wrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Reporto.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/Reporto.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/functional/Demo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/functional/Demo1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,40 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="ExportTestResults" outputFolder="$USER_HOME$/Desktop" userTempatePath="" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/functional/Demo1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="39" column="9" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="39" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Util/Wrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
+              <folding>
+                <element signature="e#2933#2934#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -34,6 +66,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/functional/Demo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Util/Wrapper.java" />
+      </list>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -41,7 +83,95 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
   <component name="ProjectId" id="1QFBQoaGSnYTz70KAyGBhuDmQJt" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Reporto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reporto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reporto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reporto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reporto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reporto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reporto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reporto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reporto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reporto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reporto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reporto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reporto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reporto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reporto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reporto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reporto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reporto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reporto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reporto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="functional" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
@@ -53,18 +183,18 @@
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/src/main/resources" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/configuration" />
-      <recent name="$PROJECT_DIR$/src/configuration/STG" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="functional" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="C:\Users\guneet.garg\IdeaProjects\Reporto\src\main\resources" />
       <recent name="$PROJECT_DIR$/src/configuration" />
+      <recent name="$PROJECT_DIR$/src/configuration/STG" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="functional" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/configuration" />
       <recent name="$PROJECT_DIR$/src/configuration/STG" />
     </key>
   </component>
@@ -80,33 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Demo1">
-    <configuration name="ConfigReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.ConfigReader" />
-      <module name="Reporto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="functional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.Demo" />
-      <module name="Reporto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="functional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Demo1.main">
     <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional.Demo1" />
       <module name="Reporto" />
@@ -120,15 +224,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XmlFileToJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javainterviewpoint.XmlFileToJson" />
+    <configuration name="C:/Users/guneet.garg/IdeaProjects/Reporto/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Reporto" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Reporto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javainterviewpoint.*" />
+          <option name="PATTERN" value="functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="functional" />
+      <option name="MAIN_CLASS_NAME" value="functional.Demo1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,20 +277,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Demo1.main" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Reporto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="functional" />
+      <option name="MAIN_CLASS_NAME" value="functional.Demo1" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ConfigReader" />
-      <item itemvalue="Application.XmlFileToJson" />
-      <item itemvalue="Application.Demo" />
       <item itemvalue="Application.Demo1" />
       <item itemvalue="TestNG.Demo1" />
+      <item itemvalue="TestNG.Demo1 (1)" />
+      <item itemvalue="TestNG.C:/Users/guneet.garg/IdeaProjects/Reporto/testng.xml" />
+      <item itemvalue="TestNG.Demo1.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Demo1.main" />
+        <item itemvalue="TestNG.C:/Users/guneet.garg/IdeaProjects/Reporto/testng.xml" />
+        <item itemvalue="TestNG.Demo1 (1)" />
         <item itemvalue="TestNG.Demo1" />
         <item itemvalue="Application.Demo1" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.XmlFileToJson" />
-        <item itemvalue="Application.ConfigReader" />
       </list>
     </recent_temporary>
   </component>
@@ -225,6 +361,70 @@
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="C__Users_guneet_garg_IdeaProjects_Reporto_testng_xml - 2019.09.09 at 14h 05m 10s.xml">
+      <configuration name="C:/Users/guneet.garg/IdeaProjects/Reporto/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_guneet_garg_IdeaProjects_Reporto_testng_xml - 2019.09.09 at 14h 05m 29s.xml">
+      <configuration name="C:/Users/guneet.garg/IdeaProjects/Reporto/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_guneet_garg_IdeaProjects_Reporto_testng_xml - 2019.09.09 at 14h 05m 51s.xml">
+      <configuration name="C:/Users/guneet.garg/IdeaProjects/Reporto/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_guneet_garg_IdeaProjects_Reporto_testng_xml - 2019.09.09 at 14h 06m 29s.xml">
+      <configuration name="C:/Users/guneet.garg/IdeaProjects/Reporto/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_guneet_garg_IdeaProjects_Reporto_testng_xml - 2019.09.09 at 14h 07m 09s.xml">
+      <configuration name="C:/Users/guneet.garg/IdeaProjects/Reporto/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_guneet_garg_IdeaProjects_Reporto_testng_xml - 2019.09.09 at 14h 07m 34s.xml">
+      <configuration name="C:/Users/guneet.garg/IdeaProjects/Reporto/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_guneet_garg_IdeaProjects_Reporto_testng_xml - 2019.09.09 at 14h 08m 08s.xml">
+      <configuration name="C:/Users/guneet.garg/IdeaProjects/Reporto/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_guneet_garg_IdeaProjects_Reporto_testng_xml - 2019.09.09 at 14h 17m 51s.xml">
+      <configuration name="C:/Users/guneet.garg/IdeaProjects/Reporto/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_guneet_garg_IdeaProjects_Reporto_testng_xml - 2019.09.09 at 14h 18m 20s.xml">
+      <configuration name="C:/Users/guneet.garg/IdeaProjects/Reporto/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_guneet_garg_IdeaProjects_Reporto_testng_xml - 2019.09.09 at 14h 20m 00s.xml">
+      <configuration name="C:/Users/guneet.garg/IdeaProjects/Reporto/testng.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.31240544" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.3878887" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout>
+  </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
       <list>
@@ -241,6 +441,12 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -278,15 +484,74 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar!/org/apache/commons/configuration/ConfigurationFactory.class</url>
           <line>66</line>
+          <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar!/org/apache/commons/configuration/ConfigurationFactory.class</url>
           <line>63</line>
+          <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0-sources.jar!/org/testng/xml/XmlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="830">
+          <caret line="342" column="16" selection-start-line="342" selection-start-column="16" selection-end-line="342" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5.jar!/org/apache/commons/io/FilenameUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2754">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reporto.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/functional/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-828">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/functional/Demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Util/Wrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
+          <folding>
+            <element signature="e#2933#2934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
