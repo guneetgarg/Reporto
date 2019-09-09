@@ -33,25 +33,25 @@ public class Demo {
             System.out.println(prop.getProperty("db.url"));
             System.out.println(prop.getProperty("object.man.name"));
 
-            Gson gsonObj = new Gson();
-            String strJson = gsonObj.toJson(prop);
+            Gson gson = new GsonBuilder().setPrettyPrinting().create();
+            String strJson = gson.toJson(prop);
             System.out.println(strJson);
 
-            Map<String, Object> map = new TreeMap<>();
-
-            for (Object key : prop.keySet()) {
-                List<String> keyList = Arrays.asList(((String) key).split("\\."));
-                Map<String, Object> valueMap = createTree(keyList, map);
-                String value = prop.getProperty((String) key);
-                value = StringEscapeUtils.unescapeHtml(value);
-                valueMap.put(keyList.get(keyList.size() - 1), value);
-            }
-
-            Gson gson = new GsonBuilder().setPrettyPrinting().create();
-            String json = gson.toJson(map);
-
-            System.out.println("Ready, converts " + prop.size() + " entries.");
-            System.out.println(json);
+//            Map<String, Object> map = new TreeMap<>();
+//
+//            for (Object key : prop.keySet()) {
+//                List<String> keyList = Arrays.asList(((String) key).split("\\."));
+//                Map<String, Object> valueMap = createTree(keyList, map);
+//                String value = prop.getProperty((String) key);
+//                value = StringEscapeUtils.unescapeHtml(value);
+//                valueMap.put(keyList.get(keyList.size() - 1), value);
+//            }
+//
+//            Gson gson = new GsonBuilder().setPrettyPrinting().create();
+//            String json = gson.toJson(map);
+//
+//            System.out.println("Ready, converts " + prop.size() + " entries.");
+//            System.out.println(json);
         } catch (Exception e) {
             e.printStackTrace();
         }

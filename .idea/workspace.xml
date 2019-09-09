@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="090fcf57-8533-45fb-81fe-2e21c95b3f0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Util/Wrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/functional/Demo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86b739b0d377c7f0e5b92a65bfd61879aff40176" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86b739b0d377c7f0e5b92a65bfd61879aff40176" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a409b98dc051b7e3980ba239dc5d545105c91772" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a8183e81cf544b9ae515a1407dc4a16565e43465" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/configuration/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configuration/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/functional/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/functional/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Reporto.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/Reporto.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/configuration/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/configuration/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/functional/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/functional/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,18 +53,18 @@
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/src/main/resources" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="C:\Users\guneet.garg\IdeaProjects\Reporto\src\main\resources" />
-      <recent name="$PROJECT_DIR$/src/configuration" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/configuration" />
       <recent name="$PROJECT_DIR$/src/configuration/STG" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="functional" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/configuration" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="C:\Users\guneet.garg\IdeaProjects\Reporto\src\main\resources" />
+      <recent name="$PROJECT_DIR$/src/configuration" />
       <recent name="$PROJECT_DIR$/src/configuration/STG" />
     </key>
   </component>
@@ -78,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="TestNG.Demo1">
     <configuration name="ConfigReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional.ConfigReader" />
       <module name="Reporto" />
@@ -92,14 +94,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigurationReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <envs>
-        <env name="-Denv" value="QA" />
-      </envs>
-      <option name="MAIN_CLASS_NAME" value="functional.ConfigurationReader" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.Demo" />
       <module name="Reporto" />
-      <option name="PROGRAM_PARAMETERS" value="-Denv=QA" />
-      <option name="VM_PARAMETERS" value="-Denv=QA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="functional.*" />
@@ -110,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.Demo" />
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.Demo1" />
       <module name="Reporto" />
       <extension name="coverage">
         <pattern>
@@ -136,17 +133,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/guneetgarg/IdeaProjects/Reporto/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Reporto" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="functional" />
+      <option name="MAIN_CLASS_NAME" value="functional.Demo1" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-Denv=QA" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
@@ -155,19 +160,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConfigurationReader" />
       <item itemvalue="Application.ConfigReader" />
       <item itemvalue="Application.XmlFileToJson" />
       <item itemvalue="Application.Demo" />
-      <item itemvalue="TestNG./Users/guneetgarg/IdeaProjects/Reporto/testng.xml" />
+      <item itemvalue="Application.Demo1" />
+      <item itemvalue="TestNG.Demo1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Demo1" />
+        <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.XmlFileToJson" />
         <item itemvalue="Application.ConfigReader" />
-        <item itemvalue="Application.ConfigurationReader" />
-        <item itemvalue="TestNG./Users/guneetgarg/IdeaProjects/Reporto/testng.xml" />
       </list>
     </recent_temporary>
   </component>

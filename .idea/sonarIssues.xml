@@ -18,6 +18,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/Util/Wrapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/Util/conersion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/javainterviewpoint/XmlFileToJson.java">
           <value>
             <set />
@@ -99,6 +109,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/test/java/functional/Demo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/functional/Demo1.java">
           <value>
             <set />
           </value>
