@@ -1,5 +1,6 @@
 package Util;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.google.gson.Gson;
@@ -11,9 +12,11 @@ import org.json.XML;
 import org.testng.Assert;
 import org.testng.Reporter;
 
+import javax.xml.ws.Response;
 import java.io.*;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Optional;
 import java.util.Properties;
 
 public class Wrapper {
@@ -86,5 +89,43 @@ public class Wrapper {
         }
         return res;
     }
+
+
+    private JsonNode convertResponseToJsonNode(Object jsonData) {
+        JsonNode jsonNode = null;
+        try {
+            if (jsonData instanceof String)
+                jsonNode = new ObjectMapper().readTree(jsonData.toString());
+            return jsonNode;
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return jsonNode;
+    }
+
+
+    private Object getValueFromJson(Object node, String key) {
+        JsonNode current = null;
+        if (node instanceof JsonNode)
+            current = (JsonNode) node;
+        else if (node instanceof Response)
+            current = convertResponseToJsonNode(node);
+        Object value = current.findValue(key);
+        return value;
+    }
+
+    private List<JsonNode> getArrayFromJson(Object node, String key) {
+        JsonNode current = null;
+        if (node instanceof JsonNode)
+            current = (JsonNode) node;
+        else if (node instanceof Response)
+            current = convertResponseToJsonNode(node);
+        return current.findValues(key);
+    }
+
+    public Object getConfigValue(String node, String value) {
+        return getValueFromJson(convertResponseToJsonNode(node), value);
+    }
+
 
 }

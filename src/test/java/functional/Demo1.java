@@ -1,16 +1,15 @@
 package functional;
 
 
-import Util.DataExtractor;
-import Util.Wrapper;
+import Util.Config;
 
 import java.io.IOException;
 
 public class Demo1 {
 
-    public static void main(String[] args) throws IOException {
-        Wrapper wrapper = new Wrapper();
-        System.out.println(wrapper.getJsonData().get(1));
-        new DataExtractor().config(wrapper.getJsonData());
+    public static void main(String[] args)  {
+        System.out.println(Config().data("url"));
+        System.out.println(Config().data("name.first"));
+        System.out.println(Config().data("name.first1"));
     }
 }
