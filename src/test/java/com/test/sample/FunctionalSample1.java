@@ -19,7 +19,7 @@ public class FunctionalSample1 {
 
     @Test
     public void TestC() throws InterruptedException {
-        Thread.sleep(100000);
+        Thread.sleep(100);
 
 
     }

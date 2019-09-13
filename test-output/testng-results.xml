@@ -2,16 +2,16 @@
 <testng-results skipped="1" failed="3" ignored="0" total="7" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation Reporto" duration-ms="100228" started-at="2019-09-03T14:16:20 IST" finished-at="2019-09-03T14:18:00 IST">
+  <suite name="Automation Reporto" duration-ms="410" started-at="2019-09-13T09:59:57 IST" finished-at="2019-09-13T09:59:58 IST">
     <groups>
     </groups>
-    <test name="testTest" duration-ms="100228" started-at="2019-09-03T14:16:20 IST" finished-at="2019-09-03T14:18:00 IST">
+    <test name="testTest" duration-ms="410" started-at="2019-09-13T09:59:57 IST" finished-at="2019-09-13T09:59:58 IST">
       <class name="com.test.sample.FunctionalSample1">
-        <test-method status="PASS" signature="TestA()[pri:0, instance:com.test.sample.FunctionalSample1@1efbd816]" name="TestA" duration-ms="25" started-at="2019-09-03T14:16:20 IST" description="Launches the WordPress site" finished-at="2019-09-03T14:16:20 IST">
+        <test-method status="PASS" signature="TestA()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="TestA" duration-ms="37" started-at="2019-09-13T09:59:58 IST" description="Launches the WordPress site" finished-at="2019-09-13T09:59:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestA -->
-        <test-method status="FAIL" signature="TestB()[pri:0, instance:com.test.sample.FunctionalSample1@1efbd816]" name="TestB" duration-ms="10" started-at="2019-09-03T14:16:20 IST" finished-at="2019-09-03T14:16:20 IST">
+        <test-method status="FAIL" signature="TestB()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="TestB" duration-ms="15" started-at="2019-09-13T09:59:58 IST" finished-at="2019-09-13T09:59:58 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected 3 but got 4 expected [4] but found [2]]]>
@@ -56,11 +56,11 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestB -->
-        <test-method status="PASS" signature="TestC()[pri:0, instance:com.test.sample.FunctionalSample1@1efbd816]" name="TestC" duration-ms="100020" started-at="2019-09-03T14:16:20 IST" finished-at="2019-09-03T14:18:00 IST">
+        <test-method status="PASS" signature="TestC()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="TestC" duration-ms="101" started-at="2019-09-13T09:59:58 IST" finished-at="2019-09-13T09:59:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestC -->
-        <test-method status="FAIL" signature="TestD()[pri:0, instance:com.test.sample.FunctionalSample1@1efbd816]" name="TestD" duration-ms="0" started-at="2019-09-03T14:18:00 IST" finished-at="2019-09-03T14:18:00 IST">
+        <test-method status="FAIL" signature="TestD()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="TestD" duration-ms="17" started-at="2019-09-13T09:59:58 IST" finished-at="2019-09-13T09:59:58 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -103,11 +103,11 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestD -->
-        <test-method status="PASS" signature="TestE()[pri:0, instance:com.test.sample.FunctionalSample1@1efbd816]" name="TestE" duration-ms="1" started-at="2019-09-03T14:18:00 IST" finished-at="2019-09-03T14:18:00 IST">
+        <test-method status="PASS" signature="TestE()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="TestE" duration-ms="0" started-at="2019-09-13T09:59:58 IST" finished-at="2019-09-13T09:59:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestE -->
-        <test-method status="FAIL" signature="TestF()[pri:0, instance:com.test.sample.FunctionalSample1@1efbd816]" name="TestF" duration-ms="1" started-at="2019-09-03T14:18:00 IST" finished-at="2019-09-03T14:18:00 IST">
+        <test-method status="FAIL" signature="TestF()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="TestF" duration-ms="1" started-at="2019-09-13T09:59:58 IST" finished-at="2019-09-13T09:59:58 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -150,7 +150,7 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestF -->
-        <test-method status="SKIP" signature="testCaseSkipException()[pri:0, instance:com.test.sample.FunctionalSample1@1efbd816]" name="testCaseSkipException" duration-ms="2" started-at="2019-09-03T14:18:00 IST" finished-at="2019-09-03T14:18:00 IST">
+        <test-method status="SKIP" signature="testCaseSkipException()[pri:0, instance:com.test.sample.FunctionalSample1@23ceabc1]" name="testCaseSkipException" duration-ms="18" started-at="2019-09-13T09:59:58 IST" finished-at="2019-09-13T09:59:58 IST">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping this exception]]>
