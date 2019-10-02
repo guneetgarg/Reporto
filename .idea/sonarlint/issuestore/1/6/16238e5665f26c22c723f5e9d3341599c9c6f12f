@@ -1,0 +1,20 @@
+
+Hsquid:S1444",Make this "public static passed" field final(ñ¡ºÿûÿÿÿÿ
+Csquid:S1444",Make this "public static failed" field final(šš²Ë
+Isquid:S1444"-Make this "public static skipped" field final(”«Ûûÿÿÿÿ
+Dsquid:S1444"-Make this "public static ignored" field final(˜äçÅ
+Csquid:S1444"-Make this "public static retried" field final(Öø”
+Gsquid:S1444	"+Make this "public static total" field final(ã–­¾ÿÿÿÿÿ
+Ksquid:S1444
+"4Make this "public static parallelStatus" field final(Ç“…
+Usquid:S1444"9Make this "public static automationSuiteName" field final(Ú¤ñùÿÿÿÿ
+…"squid:ClassVariableVisibilityCheck"RMake passed a static final constant or non-public and provide accessors if needed.(ñ¡ºÿûÿÿÿÿ
+€"squid:ClassVariableVisibilityCheck"RMake failed a static final constant or non-public and provide accessors if needed.(šš²Ë
+†"squid:ClassVariableVisibilityCheck"SMake skipped a static final constant or non-public and provide accessors if needed.(”«Ûûÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"SMake ignored a static final constant or non-public and provide accessors if needed.(˜äçÅ
+€"squid:ClassVariableVisibilityCheck"SMake retried a static final constant or non-public and provide accessors if needed.(Öø”
+„"squid:ClassVariableVisibilityCheck	"QMake total a static final constant or non-public and provide accessors if needed.(ã–­¾ÿÿÿÿÿ
+ˆ"squid:ClassVariableVisibilityCheck
+"ZMake parallelStatus a static final constant or non-public and provide accessors if needed.(Ç“…
+’"squid:ClassVariableVisibilityCheck"_Make automationSuiteName a static final constant or non-public and provide accessors if needed.(Ú¤ñùÿÿÿÿ
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(Ğªùó

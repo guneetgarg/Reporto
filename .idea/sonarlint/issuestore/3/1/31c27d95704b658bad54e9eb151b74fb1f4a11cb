@@ -1,0 +1,56 @@
+
+4squid:S1643Œ"Use a StringBuilder instead.(™°·Â
+9squid:S1643"Use a StringBuilder instead.(æš àûÿÿÿÿ
+bsquid:S1192k"FDefine a constant instead of duplicating this literal "%.02f" 3 times.(Ï„Ùüÿÿÿÿÿ
+isquid:S2095Q"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ÓĞÊışÿÿÿÿ
+Vsquid:S4973–"9Use the "equals" method if value comparison was intended.(×— ™úÿÿÿÿ
+`squid:S2259`"IA "NullPointerException" could be thrown; "fileContent" is nullable here.(‡îİß
+dsquid:UselessImportCheck";Remove this unused import 'org.openqa.selenium.OutputType'.(Ğ³—õıÿÿÿÿ
+^squid:UselessImportCheck":Remove this unused import 'org.openqa.selenium.WebDriver'.(ñšÿÀ
+`squid:UselessImportCheck"<Remove this unused import 'org.apache.commons.io.FileUtils'.(À¿Ù´
+isquid:UselessImportCheck"@Remove this unused import 'org.openqa.selenium.TakesScreenshot'.(ç³Üÿÿÿÿÿ
+?squid:S1148V"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148]"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148r"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Zsquid:S1155{">Use isEmpty() to check whether the collection is empty or not.(‡ÔËÜøÿÿÿÿ
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ØõÕüÿÿÿÿ
+Vsquid:S1161":Add the "@Override" annotation above this method signature(ØõÕüÿÿÿÿ
+Msquid:S2696"6Make the enclosing method "static" or remove this set.(Ó¥Ş¦
+Msquid:S2696"6Make the enclosing method "static" or remove this set.(×ûš
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Š÷…‰ÿÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ë»Îûÿÿÿÿ
+Psquid:S2864$"4Iterate over the "entrySet" instead of the "keySet".(¸Ì¾Âıÿÿÿÿ
+T
+squid:S106)"9Replace this use of System.out or System.err by a logger.(ïãïôûÿÿÿÿ
+T
+squid:S106*"9Replace this use of System.out or System.err by a logger.(ÔôÆùÿÿÿÿ
+Msquid:S26964"6Make the enclosing method "static" or remove this set.(µüõÿ
+Msquid:S26965"6Make the enclosing method "static" or remove this set.(³²Ÿ
+Msquid:S2696?"6Make the enclosing method "static" or remove this set.(¤•Ñ´
+Msquid:S2696@"6Make the enclosing method "static" or remove this set.(ŠçÙ
+Msquid:S2696A"6Make the enclosing method "static" or remove this set.(°°ªî
+asquid:S2674S"JCheck the return value of the "read" call to see how many bytes were read.(Úï
+Usquid:S4719["9Replace charset name argument with StandardCharsets.UTF_8(Ñ›Èıÿÿÿÿ
+N
+squid:S106u"9Replace this use of System.out or System.err by a logger.(ûšÛS
+nsquid:S3776y"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(úª³úÿÿÿÿ
+O
+squid:S106}"9Replace this use of System.out or System.err by a logger.(Ù·Ô³
+U
+squid:S106ƒ"9Replace this use of System.out or System.err by a logger.(™²ªËøÿÿÿÿ
+Osquid:S1197†"8Move the array designator from the variable to the type.(øĞŠH
+U
+squid:S106‡"9Replace this use of System.out or System.err by a logger.(ö¦¦şÿÿÿÿ
+P
+squid:S106ˆ"9Replace this use of System.out or System.err by a logger.(±±ëş
+P
+squid:S106’"9Replace this use of System.out or System.err by a logger.(¶œ•Ö
+P
+squid:S106”"9Replace this use of System.out or System.err by a logger.(Ë»¬†
+Fsquid:S1940–")Use the opposite operator ("!=") instead.(×— ™úÿÿÿÿ
+O
+squid:S106—"9Replace this use of System.out or System.err by a logger.(è¤;
+bsquid:CommentedOutCodeLineM"<This block of commented-out lines of code should be removed.(Õø˜Ù
+gsquid:CommentedOutCodeLine~"<This block of commented-out lines of code should be removed.(ß©üğüÿÿÿÿ

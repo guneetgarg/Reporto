@@ -1,11 +1,2 @@
 
-ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë€™Öøÿÿÿÿ
-ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä»³¸ùÿÿÿÿ
-ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êºßÿÿÿÿÿ
-O
-squid:S106/"9Replace this use of System.out or System.err by a logger.(òñáæ
-ksquid:S00100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ÿîİÿÿÿÿÿ
-fsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡›Ò‹
-fsquid:S00100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹È“õ
-˜squid:S1186!"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹È“õ
-squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ë€™Öøÿÿÿÿ
+Bsquid:S2925"$Remove this use of "Thread.sleep()".(á˜ ¶8 µËÆÒ-
