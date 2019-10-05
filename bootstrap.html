@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+      <title>Reporto</title>
+      <style>
+         .inactiveLink {
+         pointer-events: none;
+         cursor: default;
+         }
+      </style>
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script type="text/javascript">
+         // Load google charts
+         google.charts.load('current', {
+             'packages': ['corechart']
+         });
+         google.charts.setOnLoadCallback(drawChart);
+         
+         // Draw the chart and set the chart values
+         function drawChart() {
+             var data = google.visualization.arrayToDataTable([
+                 ['Task', 'Hours per Day'],
+                 ['Passed', 40],
+                 ['Failed', 35],
+                 ['Skipped', 25]
+             ]);
+         
+             // Optional; add a title and set the width and height of the chart
+             var options = {
+                 'legend': 'bottom',
+                 'is3D': true,
+                 'chartArea': {
+                     left: 0,
+                     top: 0,
+                     width: '70%',
+                     height: '80%',
+                     right: 0
+                 },
+                 'height': 200
+             };
+         
+             // Display the chart inside the <div> element with id="piechart"
+             var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+             chart.draw(data, options);
+         }
+      </script>
+   </head>
+   <body>
+      <div class="row">
+         <div class="col-3 pl-3">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+               <nav class="navbar navbar-dark bg-dark"><a class="navbar-brand navbar navbar-dark bg-dark inactiveLink" href="#"><i class="fas fa-laugh-wink"></i> Reporto <sup>beta</sup></a></nav>
+               <a class="nav-link active" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="true"> <i class="fas fa-fw fa-tachometer-alt"></i><span>  Dashboard</span></a>
+               <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fas fa-fw fa-table"></i><span>  Execution</span></a>
+               <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="fas fa-bug"></i><span>  Bug</span></a>
+            </div>
+         </div>
+         <div class="col-9 pl-md-0 p-3 pr-sm-4">
+            <div class="tab-content" id="v-pills-tabContent">
+               <div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                  <div class="row">
+                     <div class="col">
+                        <div class="card border-left-primary shadow h-100 py-2">
+                           <div class="card-body">
+                              <div class="row no-gutters align-items-center">
+                                 <div class="col mr-2">
+                                    <div class="text-xs1 font-weight-bold text-primary text-uppercase mb-1">Total</div>
+                                    <div class="h3 mb-0 font-weight-bold text-gray-800">7</div>
+                                 </div>
+                                 <div class="col-auto"> <i class="fas fa-calculator fa-3x text-gray-300"></i>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col">
+                        <div class="card border-left-success shadow h-100 py-2">
+                           <div class="card-body">
+                              <div class="row no-gutters align-items-center">
+                                 <div class="col mr-2">
+                                    <div class="text-xs1 font-weight-bold text-success text-uppercase mb-1">Passed</div>
+                                    <div class="h3 mb-0 font-weight-bold text-gray-800">3</div>
+                                 </div>
+                                 <div class="col-auto"> <i class="fas fa-smile-beam fa-3x text-gray-300"></i>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col">
+                        <div class="card border-left-info shadow h-100 py-2">
+                           <div class="card-body">
+                              <div class="row no-gutters align-items-center">
+                                 <div class="col mr-2">
+                                    <div class="text-xs1 font-weight-bold text-info text-uppercase mb-1">Failed</div>
+                                    <div class="row no-gutters align-items-center">
+                                       <div class="col-auto">
+                                          <div class="h3 mb-0 mr-3 font-weight-bold text-gray-800">3</div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-auto"> <i class="fas fa-sad-tear fa-3x text-gray-300"></i>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Pending Requests Card Example -->
+                     <div class="col">
+                        <div class="card border-left-warning shadow h-100 py-2">
+                           <div class="card-body">
+                              <div class="row no-gutters align-items-center">
+                                 <div class="col mr-2">
+                                    <div class="text-xs1 font-weight-bold text-warning text-uppercase mb-1">Skipped</div>
+                                    <div class="h3 mb-0 font-weight-bold text-gray-800">1</div>
+                                 </div>
+                                 <div class="col-auto"> <i class="fas fa-running fa-3x text-gray-300"></i>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Pie Chart -->
+                  <div class="row pl-md-0 p-3 pr-sm-4">
+                     <div class="col">
+                        <div class="card shadow mb-4">
+                           <!-- Card Header - Dropdown -->
+                           <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                              <h6 class="m-0 font-weight-bold text-primary"><i class="fas fa-chart-area fa-1x text-gray-300"></i> Graphical % Representation</h6>
+                           </div>
+                           <!-- Card Body -->
+                           <div class="card-body">
+                              <div id="piechart"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card shadow mb-4">
+                     <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">
+                           <i class="fas fa-info-circle fa-1x text-gray-300"></i> Basic Information
+                        </h6>
+                     </div>
+                     <div class="card-body">
+                        <div class="table-responsive">
+                           <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                              <tbody>
+                                 <tr>
+                                    <td>OS</td>
+                                    <td>Mac OS X</td>
+                                 </tr>
+                                 <tr>
+                                    <td>User</td>
+                                    <td>guneetgarg</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Java Version</td>
+                                    <td>1.8.0_221</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Start Time</td>
+                                    <td>Mac OS X</td>
+                                 </tr>
+                                 <tr>
+                                    <td>End Time</td>
+                                    <td>1.8.0_221</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">..333.</div>
+               <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...444</div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
