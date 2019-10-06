@@ -18,6 +18,15 @@
         #divpad {
             padding: 0px 0px 15px 0px;
         }
+        #divPassed {
+            background-color: #28a745;
+        }
+       #divFailed {
+            background-color: #ff4d4d;
+        }
+       #divSkipped {
+            background-color:  #00e68a;
+        }
     </style>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -80,12 +89,10 @@
         }
         
         .header-active {
-            background-color: #97d79d !important;
             margin-bottom: 0px !important;
         }
         
         .header-active:hover {
-            background-color: #7cd382 !important;
         }
         
         .content-default {
@@ -321,13 +328,19 @@
 
                     <section id="accordion">
 
-                        <div id="divpad" data-type="accordion-section" data-filter="passType">
-                            <div data-type="accordion-section-title">Section 4</div>
+                        <div id="divpad" data-type="accordion-section" data-filter="skipType">
+                            <div id="divSkipped" data-type="accordion-section-title">Section 4323432</div>
                             <div class="accordion-content" data-type="accordion-section-body">Lorem ipue rerum quia deserunt.</div>
                         </div>
+                        
+                        <div id="divpad" data-type="accordion-section" data-filter="passType">
+                            <div id="divPassed" data-type="accordion-section-title">Section 4</div>
+                            <div class="accordion-content" data-type="accordion-section-body">Lorem ipue rerum quia deserunt.</div>
+                        </div>
+                        
 
                         <div id="divpad" data-type="accordion-section" data-filter="failType">
-                            <div data-type="accordion-section-title">Section 2</div>
+                            <div id="divFailed" data-type="accordion-section-title">Section 2</div>
                             <div class="accordion-content" data-type="accordion-section-body">
                                 <div class="table-responsive">
                                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
