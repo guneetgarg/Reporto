@@ -4,15 +4,7 @@
     <list default="true" id="090fcf57-8533-45fb-81fe-2e21c95b3f0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/startbootstrap-sb-admin-2-gh-pages/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/startbootstrap-sb-admin-2-gh-pages/tables.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Automation Reporto/testTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Automation Reporto/testTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Automation Reporto/testTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Automation Reporto/testTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.test.sample.FunctionalSample1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.test.sample.FunctionalSample1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Automation Reporto/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Automation Reporto/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Automation Reporto/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Automation Reporto/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
