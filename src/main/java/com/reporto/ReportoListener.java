@@ -21,9 +21,14 @@ import java.util.Set;
 
 
 public class ReportoListener extends TestListenerAdapter implements IReporter, ITestListener {
+    String passHtml = "";
+    String skipHtml = "";
+    String failHtml = "";
 
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
 
+        Date startTime = null;
+        Date endTime = null;
         StatsResult.automationSuiteName = xmlSuites.get(0).getName();
         StatsResult.parallelStatus = "" + xmlSuites.get(0).getParallel().isParallel();
 
@@ -40,6 +45,8 @@ public class ReportoListener extends TestListenerAdapter implements IReporter, I
 
                 System.out.println("Suite Start Time" + testContext.getStartDate());
                 System.out.println("Suite End Time" + testContext.getEndDate());
+                startTime = testContext.getStartDate();
+                endTime = testContext.getEndDate();
 
                 passedTestCase(testContext.getPassedTests().getAllResults(), "pass");
                 passedTestCase(testContext.getFailedTests().getAllResults(), "fail");
@@ -64,7 +71,6 @@ public class ReportoListener extends TestListenerAdapter implements IReporter, I
                 StatsResult.retried += retriedPerTest;
                 StatsResult.ignored += testContext.getExcludedMethods().size();
 
-//                System.out.println("Testng Test Name " + testContext.getName());//<test name="testTest">
 
             }
         }
@@ -100,13 +106,19 @@ public class ReportoListener extends TestListenerAdapter implements IReporter, I
 
         fileContent = fileContent.replace("osData", System.getProperty("os.name"));
         fileContent = fileContent.replace("userData", System.getProperty("user.name"));
-        fileContent = fileContent.replace("startTimeData", System.getProperty("os.name"));
-        fileContent = fileContent.replace("endTimeData", System.getProperty("java.version"));
+        fileContent = fileContent.replace("startTimeData", startTime.toString());
+        fileContent = fileContent.replace("endTimeData", endTime.toString());
         fileContent = fileContent.replace("javaVersionnData", System.getProperty("java.version"));
 
         fileContent = fileContent.replace("passedPerData", String.format("%.02f", (StatsResult.passed * 100.00 / StatsResult.getTotal())));
         fileContent = fileContent.replace("failedPerData", String.format("%.02f", (StatsResult.failed * 100.00 / StatsResult.getTotal())));
         fileContent = fileContent.replace("skippedPerData", String.format("%.02f", (StatsResult.skipped * 100.00 / StatsResult.getTotal())));
+
+
+        fileContent = fileContent.replace("passTestCaseAdd", passHtml);
+        fileContent = fileContent.replace("skipTestCaseAdd", skipHtml);
+        fileContent = fileContent.replace("failTestCaseAdd", failHtml);
+
 
         try {
             Files.writeFile(fileContent, file1);
@@ -123,17 +135,27 @@ public class ReportoListener extends TestListenerAdapter implements IReporter, I
         if (iTestResults.size() > 0) {
             for (ITestResult testResult : iTestResults) {
                 System.out.println("**************** " + type + " ********************************");
-                //       System.out.println(testResult.getStartMillis());
 
+                if (type == "pass") {
+                    passHtml += passTestCaseEmbeded();
+                } else if (type == "skip") {
+                    skipHtml += skipTestCaseEmbeded();
+                } else if (type == "fail") {
+                    failHtml += failTestCaseEmbeded();
+                }
 
                 DateFormat simple = new SimpleDateFormat("dd MMM yyyy HH:mm:ss:SSS Z");
                 Date result = new Date(testResult.getStartMillis());
                 System.out.println("Date " + simple.format(result));
 
-
                 String last[] = testResult.getInstanceName().split("\\.");
                 System.out.println("Class Name " + last[last.length - 1]);
                 System.out.println("Test Case Name " + testResult.getName());
+
+                String testcasename = testResult.getName();
+                String classname = last[last.length - 1];
+
+
                 String packageName = "";
                 int i = 0;
                 while (last.length - 1 > i) {
@@ -143,14 +165,118 @@ public class ReportoListener extends TestListenerAdapter implements IReporter, I
                         packageName += ".";
                     }
                 }
+
+                String packagename = packageName;
+
                 System.out.println("Package Name " + packageName);
                 if (testResult.getMethod().getDescription() != null) {
                     System.out.println("Description " + testResult.getMethod().getDescription());
                 }
-                if (!(type == "pass")) {
-                    System.out.println("Error " + testResult.getThrowable());
+
+
+                if (type == "pass") {
+                    passHtml = passHtml.replace("testcasename", testcasename);
+                    passHtml = passHtml.replace("classname", classname);
+                    passHtml = passHtml.replace("packagename", packagename);
+                } else if (type == "skip") {
+                    skipHtml = skipHtml.replace("testcasename", testcasename);
+                    skipHtml = skipHtml.replace("classname", classname);
+                    skipHtml = skipHtml.replace("packagename", packagename);
+                    skipHtml = skipHtml.replace("errormessage", testResult.getThrowable().toString());
+                } else if (type == "fail") {
+                    failHtml = failHtml.replace("testcasename", testcasename);
+                    failHtml = failHtml.replace("classname", classname);
+                    failHtml = failHtml.replace("packagename", packagename);
+                    failHtml = failHtml.replace("errormessage", testResult.getThrowable().toString());
                 }
             }
         }
     }
+
+
+    public String passTestCaseEmbeded() {
+        String pass = "        <div id=\"divpad\" data-type=\"accordion-section\" data-filter=\"passType\">\n" +
+                "                            <div id=\"divPassed\" data-type=\"accordion-section-title\">testcasename</div>\n" +
+                "                            <div class=\"accordion-content\" data-type=\"accordion-section-body\">\n" +
+                "                                <div class=\"table-responsive\">\n" +
+                "                                    <table class=\"table table-bordered\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\n" +
+                "                                        <tr>\n" +
+                "                                            <td>Class Name</td>\n" +
+                "                                            <td>classname</td>\n" +
+                "                                        </tr>\n" +
+                "                                        <tr>\n" +
+                "                                            <td>Test Case Name</td>\n" +
+                "                                            <td>testcasename</td>\n" +
+                "                                        </tr>\n" +
+                "                                        <tr>\n" +
+                "                                            <td>Package Name</td>\n" +
+                "                                            <td>packagename</td>\n" +
+                "                                        </tr>\n" +
+                "                                    </table>\n" +
+                "                                </div>\n" +
+                "                            </div>\n" +
+                "                        </div>";
+
+        return pass;
+    }
+
+    public String skipTestCaseEmbeded() {
+
+        return "                        <div id=\"divpad\" data-type=\"accordion-section\" data-filter=\"skipType\">\n" +
+                "                            <div id=\"divSkipped\" data-type=\"accordion-section-title\">testcasename</div>\n" +
+                "                            <div class=\"accordion-content\" data-type=\"accordion-section-body\">\n" +
+                "\n" +
+                "                                <div class=\"table-responsive\">\n" +
+                "                                    <table class=\"table table-bordered\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\n" +
+                "                                           <tr>\n" +
+                "                                            <td>Class Name</td>\n" +
+                "                                            <td>classname</td>\n" +
+                "                                        </tr>\n" +
+                "                                        <tr>\n" +
+                "                                            <td>Test Case Name</td>\n" +
+                "                                            <td>testcasename</td>\n" +
+                "                                        </tr>\n" +
+                "                                        <tr>\n" +
+                "                                            <td>Package Name</td>\n" +
+                "                                            <td>packagename</td>\n" +
+                "                                        </tr>\n" +
+                "                                        <tr>\n" +
+                "                                            <td>Error Message</td>\n" +
+                "                                            <td>errormessage</td>\n" +
+                "                                        </tr>\n" +
+                "                                    </table>\n" +
+                "                                </div>\n" +
+                "\n" +
+                "                            </div>\n" +
+                "                        </div>\n";
+    }
+
+    public String failTestCaseEmbeded() {
+        return " <div id=\"divpad\" data-type=\"accordion-section\" data-filter=\"failType\">\n" +
+                "                            <div id=\"divFailed\" data-type=\"accordion-section-title\">testcasename</div>\n" +
+                "                            <div class=\"accordion-content\" data-type=\"accordion-section-body\">\n" +
+                "                                <div class=\"table-responsive\">\n" +
+                "                                    <table class=\"table table-bordered\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\n" +
+                "                                         <tr>\n" +
+                "                                            <td>Class Name</td>\n" +
+                "                                            <td>classname</td>\n" +
+                "                                        </tr>\n" +
+                "                                        <tr>\n" +
+                "                                            <td>Test Case Name</td>\n" +
+                "                                            <td>testcasename</td>\n" +
+                "                                        </tr>\n" +
+                "                                        <tr>\n" +
+                "                                            <td>Package Name</td>\n" +
+                "                                            <td>packagename</td>\n" +
+                "                                        </tr>\n" +
+                "                                        <tr>\n" +
+                "                                            <td>Error Message</td>\n" +
+                "                                            <td>errormessage</td>\n" +
+                "                                        </tr>\n" +
+                "                                    </table>\n" +
+                "                                </div>\n" +
+                "                            </div>\n" +
+                "                        </div>";
+    }
+
 }

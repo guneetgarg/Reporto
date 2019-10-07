@@ -7,7 +7,8 @@ public class FunctionalSample {
 
     @BeforeClass
     @Parameters({"sUsername", "sPassword"})
-    public void beforeClass(String sUsername, String sPassword) {
+    public void beforeClass(String sUsername, String sPassword) throws InterruptedException {
+        Thread.sleep(10000);
     }
 
     @AfterClass
@@ -16,6 +17,9 @@ public class FunctionalSample {
 
     @Test
     public void passingTest() {
+    }
+    @Test
+    public void passingTest1() {
     }
 
     @Test

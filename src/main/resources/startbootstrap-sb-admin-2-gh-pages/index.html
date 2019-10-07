@@ -47,9 +47,9 @@
         function drawChart() {
             var data = google.visualization.arrayToDataTable([
                 ['Task', 'Hours per Day'],
-                ['Passed', 40],
-                ['Failed', 35],
-                ['Skipped', 25]
+                ['Passed', passedPerData],
+                ['Failed', failedPerData],
+                ['Skipped', skippedPerData]
             ]);
 
             // Optional; add a title and set the width and height of the chart
@@ -191,7 +191,7 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs1 font-weight-bold text-primary text-uppercase mb-1">Total</div>
-                                            <div class="h2 mb-0 font-weight-bold text-gray-800">711</div>
+                                            <div class="h2 mb-0 font-weight-bold text-gray-800">totalData</div>
                                         </div>
                                         <div class="col-auto"> <i class="fas fa-calculator fa-3x text-gray-300"></i>
                                         </div>
@@ -205,7 +205,7 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs1 font-weight-bold text-success text-uppercase mb-1">Passed</div>
-                                            <div class="h2 mb-0 font-weight-bold text-gray-800">123</div>
+                                            <div class="h2 mb-0 font-weight-bold text-gray-800">passedData</div>
                                         </div>
                                         <div class="col-auto"> <i class="fas fa-smile-beam fa-3x text-gray-300"></i>
                                         </div>
@@ -221,7 +221,7 @@
                                             <div class="text-xs1 font-weight-bold text-info text-uppercase mb-1">Failed</div>
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col-auto">
-                                                    <div class="h2 mb-0 mr-3 font-weight-bold text-gray-800">13</div>
+                                                    <div class="h2 mb-0 mr-3 font-weight-bold text-gray-800">failedData</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -237,7 +237,7 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs1 font-weight-bold text-warning text-uppercase mb-1">Skipped</div>
-                                            <div class="h2 mb-0 font-weight-bold text-gray-800">111</div>
+                                            <div class="h2 mb-0 font-weight-bold text-gray-800">skippedData</div>
                                         </div>
                                         <div class="col-auto"> <i class="fas fa-running fa-3x text-gray-300"></i>
                                         </div>
@@ -273,23 +273,23 @@
                                             <tbody>
                                                 <tr>
                                                     <td>OS</td>
-                                                    <td>Mac OS X</td>
+                                                    <td>osData</td>
                                                 </tr>
                                                 <tr>
                                                     <td>User</td>
-                                                    <td>guneetgarg</td>
+                                                    <td>userData</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Java Version</td>
-                                                    <td>1.8.0_221</td>
+                                                    <td>javaVersionnData</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Start Time</td>
-                                                    <td>Mac OS X</td>
+                                                    <td>startTimeData</td>
                                                 </tr>
                                                 <tr>
                                                     <td>End Time</td>
-                                                    <td>1.8.0_221</td>
+                                                    <td>endTimeData</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -330,77 +330,12 @@
 
                     <section id="accordion">
 
-                        <div id="divpad" data-type="accordion-section" data-filter="skipType">
-                            <div id="divSkipped" data-type="accordion-section-title">SKipped Test Case A</div>
-                            <div class="accordion-content" data-type="accordion-section-body">
 
-                                <div class="table-responsive">
-                                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                        <tr>
-                                            <td>Class Name</td>
-                                            <td>FunctionalSample1</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Test Case Name</td>
-                                            <td>testCaseSkipException</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Package Name</td>
-                                            <td>com.test.sample</td>
-                                        </tr>
-                                    </table>
-                                </div>
+                        passTestCaseAdd
+                        skipTestCaseAdd
+                        failTestCaseAdd
 
-                            </div>
-                        </div>
 
-                        <div id="divpad" data-type="accordion-section" data-filter="passType">
-                            <div id="divPassed" data-type="accordion-section-title">Passed test case A</div>
-                            <div class="accordion-content" data-type="accordion-section-body">
-                                <div class="table-responsive">
-                                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                        <tr>
-                                            <td>Class Name</td>
-                                            <td>FunctionalSample1</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Test Case Name</td>
-                                            <td>testCaseSkipException</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Package Name</td>
-                                            <td>com.test.sample</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="divpad" data-type="accordion-section" data-filter="failType">
-                            <div id="divFailed" data-type="accordion-section-title">Failed Test Case ASS</div>
-                            <div class="accordion-content" data-type="accordion-section-body">
-                                <div class="table-responsive">
-                                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                        <tr>
-                                            <td>Class Name</td>
-                                            <td>FunctionalSample1</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Test Case Name</td>
-                                            <td>testCaseSkipException</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Package Name</td>
-                                            <td>com.test.sample</td>
-                                        </tr>
-                                         <tr>
-                                            <td>Package Name</td>
-                                            <td>com.test.sample</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
 
                     </section>
 
