@@ -1,56 +1,78 @@
 
-4squid:S1643Œ"Use a StringBuilder instead.(™°·Â
-9squid:S1643"Use a StringBuilder instead.(æš àûÿÿÿÿ
-bsquid:S1192k"FDefine a constant instead of duplicating this literal "%.02f" 3 times.(Ï„Ùüÿÿÿÿÿ
-isquid:S2095Q"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ÓĞÊışÿÿÿÿ
-Vsquid:S4973–"9Use the "equals" method if value comparison was intended.(×— ™úÿÿÿÿ
-`squid:S2259`"IA "NullPointerException" could be thrown; "fileContent" is nullable here.(‡îİß
-dsquid:UselessImportCheck";Remove this unused import 'org.openqa.selenium.OutputType'.(Ğ³—õıÿÿÿÿ
-^squid:UselessImportCheck":Remove this unused import 'org.openqa.selenium.WebDriver'.(ñšÿÀ
-`squid:UselessImportCheck"<Remove this unused import 'org.apache.commons.io.FileUtils'.(À¿Ù´
-isquid:UselessImportCheck"@Remove this unused import 'org.openqa.selenium.TakesScreenshot'.(ç³Üÿÿÿÿÿ
-?squid:S1148V"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-?squid:S1148]"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-?squid:S1148r"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-Zsquid:S1155{">Use isEmpty() to check whether the collection is empty or not.(‡ÔËÜøÿÿÿÿ
-nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ØõÕüÿÿÿÿ
-Vsquid:S1161":Add the "@Override" annotation above this method signature(ØõÕüÿÿÿÿ
-Msquid:S2696"6Make the enclosing method "static" or remove this set.(Ó¥Ş¦
-Msquid:S2696"6Make the enclosing method "static" or remove this set.(×ûš
+Zsquid:S4973"9Use the "equals" method if value comparison was intended.(á¶–ˆúÿÿÿÿ8¸¼Ÿ¾Ú-
+Zsquid:S4973"9Use the "equals" method if value comparison was intended.(ÁÔĞ¥üÿÿÿÿ8§Í¥¾Ú-
+Šsquid:S1192"iDefine a constant instead of duplicating this literal "                                </div>\n" 3 times.(ÆŒ©£ùÿÿÿÿ8”­¾Ú-
+^squid:UselessImportCheck"<Remove this unused import 'org.apache.commons.io.FileUtils'.(À¿Ù´
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ïãïôûÿÿÿÿ
+¤squid:S1192"‚Define a constant instead of duplicating this literal "                                            <td>Class Name</td>\n" 3 times.(€ºˆßıÿÿÿÿ8”­¾Ú-
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(¤•Ñ´
+_squid:S1155">Use isEmpty() to check whether the collection is empty or not.(‡ÔËÜøÿÿÿÿ8“”ª½Ú-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8­•€½Ú-
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(Ó¥Ş¦
+squid:S1192"Define a constant instead of duplicating this literal "                                            <td>classname</td>\n" 3 times.(ÛÃÉ8Ñ’®¾Ú-
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(ûšÛS8“”ª½Ú-
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(úª³úÿÿÿÿ8“”ª½Ú-
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Š÷…‰ÿÿÿÿÿ
+Ssquid:S1197"8Move the array designator from the variable to the type.(øĞŠH8¸¼Ÿ¾Ú-
+’squid:S1192"qDefine a constant instead of duplicating this literal "                                        </tr>\n" 11 times.(úÒ¶ÿÿÿÿÿ8ø¬¬¾Ú-
+gsquid:UselessImportCheck"@Remove this unused import 'org.openqa.selenium.TakesScreenshot'.(ç³Üÿÿÿÿÿ
+Zsquid:S4719"9Replace charset name argument with StandardCharsets.UTF_8(Ñ›Èıÿÿÿÿ8­•€½Ú-
+=squid:S1643"Use a StringBuilder instead.(œ‰Ïûÿÿÿÿ8¸¼Ÿ¾Ú-
+†squid:S1192"eDefine a constant instead of duplicating this literal "                            </div>\n" 3 times.(ÆŒ©£ùÿÿÿÿ8”­¾Ú-
+7squid:S1643"Use a StringBuilder instead.(Æ«òo8¸¼Ÿ¾Ú-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Õø˜Ù8­•€½Ú-
+‹squid:S1192"oDefine a constant instead of duplicating this literal "                                    </table>\n" 3 times.(å¹Ğä8”­¾Ú-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8­•€½Ú-
+Tsquid:S1161":Add the "@Override" annotation above this method signature(ØõÕüÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÔôÆùÿÿÿÿ
+gsquid:S1192"FDefine a constant instead of duplicating this literal "%.02f" 3 times.(Ï„Ùüÿÿÿÿÿ8­•€½Ú-
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(ŠçÙ
+ squid:S1192"„Define a constant instead of duplicating this literal "                                            <td>testcasename</td>\n" 3 times.(¢«İ08Ñ’®¾Ú-
+Üsquid:S1192"¿Define a constant instead of duplicating this literal "                                    <table class=\"table table-bordered\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\n" 3 times.(×Öï8”­¾Ú-
+=squid:S1643"Use a StringBuilder instead.(æš àûÿÿÿÿ8¸¼Ÿ¾Ú-
+squid:S1192"oDefine a constant instead of duplicating this literal "                                        <tr>\n" 9 times.(‡ô€…øÿÿÿÿ8¢ü¦¾Ú-
+Zsquid:S4973"9Use the "equals" method if value comparison was intended.(òíÒÆıÿÿÿÿ8¸¼Ÿ¾Ú-
 T
-squid:S106"9Replace this use of System.out or System.err by a logger.(Š÷…‰ÿÿÿÿÿ
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ë»¬†8¸¼Ÿ¾Ú-
+}squid:S1488"\Immediately return this expression instead of assigning it to the temporary variable "pass".(‘©Ûêûÿÿÿÿ8ø¬¬¾Ú-
+8squid:S1643"Use a StringBuilder instead.(™°·Â8¸¼Ÿ¾Ú-
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ë»Îûÿÿÿÿ
 T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ë»Îûÿÿÿÿ
-Psquid:S2864$"4Iterate over the "entrySet" instead of the "keySet".(¸Ì¾Âıÿÿÿÿ
+squid:S106"9Replace this use of System.out or System.err by a logger.(¶œ•Ö8¸¼Ÿ¾Ú-
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(µüõÿ
+Nsquid:S2864"4Iterate over the "entrySet" instead of the "keySet".(¸Ì¾Âıÿÿÿÿ
+Âsquid:S1192"¥Define a constant instead of duplicating this literal "                            <div class=\"accordion-content\" data-type=\"accordion-section-body\">\n" 3 times.(ÍÎÄÕ8”­¾Ú-
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(×ûš
+nsquid:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ÓĞÊışÿÿÿÿ8­•€½Ú-
+bsquid:UselessImportCheck";Remove this unused import 'org.openqa.selenium.OutputType'.(Ğ³—õıÿÿÿÿ
+8squid:S1643"Use a StringBuilder instead.(ÈêÂÎ8§Í¥¾Ú-
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(°°ªî8­•€½Ú-
 T
-squid:S106)"9Replace this use of System.out or System.err by a logger.(ïãïôûÿÿÿÿ
+squid:S106"9Replace this use of System.out or System.err by a logger.(±±ëş8¸¼Ÿ¾Ú-
+isquid:S1192"MDefine a constant instead of duplicating this literal "testcasename" 3 times.(ß„öú8¢ü¦¾Ú-
+ksquid:S1192"JDefine a constant instead of duplicating this literal "classname" 3 times.(İšğ÷øÿÿÿÿ8¢ü¦¾Ú-
+Zsquid:S4973"9Use the "equals" method if value comparison was intended.(ÁÔĞ¥üÿÿÿÿ8¢ü¦¾Ú-
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(³²Ÿ8­•€½Ú-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8“”ª½Ú-
+hsquid:S1192"LDefine a constant instead of duplicating this literal "packagename" 3 times.(ó’ùÌ8¢ü¦¾Ú-
+fsquid:S2674"JCheck the return value of the "read" call to see how many bytes were read.(Úï8­•€½Ú-
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ØõÕüÿÿÿÿ
+Zsquid:S4973"9Use the "equals" method if value comparison was intended.(òíÒÆıÿÿÿÿ8œ­•¾Ú-
+Zsquid:S4973"9Use the "equals" method if value comparison was intended.(á¶–ˆúÿÿÿÿ8œ­•¾Ú-
+£squid:S1192"†Define a constant instead of duplicating this literal "                                            <td>Test Case Name</td>\n" 3 times.(à±­ç8”­¾Ú-
+esquid:S2259"IA "NullPointerException" could be thrown; "fileContent" is nullable here.(‡îİß8­•€½Ú-
+¡squid:S1192"„Define a constant instead of duplicating this literal "                                            <td>Package Name</td>\n" 3 times.(í·Şî8”­¾Ú-
+¥squid:S1192"ƒDefine a constant instead of duplicating this literal "                                <div class=\"table-responsive\">\n" 3 times.(’ÿÅêÿÿÿÿÿ8”­¾Ú-
 T
-squid:S106*"9Replace this use of System.out or System.err by a logger.(ÔôÆùÿÿÿÿ
-Msquid:S26964"6Make the enclosing method "static" or remove this set.(µüõÿ
-Msquid:S26965"6Make the enclosing method "static" or remove this set.(³²Ÿ
-Msquid:S2696?"6Make the enclosing method "static" or remove this set.(¤•Ñ´
-Msquid:S2696@"6Make the enclosing method "static" or remove this set.(ŠçÙ
-Msquid:S2696A"6Make the enclosing method "static" or remove this set.(°°ªî
-asquid:S2674S"JCheck the return value of the "read" call to see how many bytes were read.(Úï
-Usquid:S4719["9Replace charset name argument with StandardCharsets.UTF_8(Ñ›Èıÿÿÿÿ
-N
-squid:S106u"9Replace this use of System.out or System.err by a logger.(ûšÛS
-nsquid:S3776y"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(úª³úÿÿÿÿ
-O
-squid:S106}"9Replace this use of System.out or System.err by a logger.(Ù·Ô³
-U
-squid:S106ƒ"9Replace this use of System.out or System.err by a logger.(™²ªËøÿÿÿÿ
-Osquid:S1197†"8Move the array designator from the variable to the type.(øĞŠH
-U
-squid:S106‡"9Replace this use of System.out or System.err by a logger.(ö¦¦şÿÿÿÿ
-P
-squid:S106ˆ"9Replace this use of System.out or System.err by a logger.(±±ëş
-P
-squid:S106’"9Replace this use of System.out or System.err by a logger.(¶œ•Ö
-P
-squid:S106”"9Replace this use of System.out or System.err by a logger.(Ë»¬†
-Fsquid:S1940–")Use the opposite operator ("!=") instead.(×— ™úÿÿÿÿ
-O
-squid:S106—"9Replace this use of System.out or System.err by a logger.(è¤;
-bsquid:CommentedOutCodeLineM"<This block of commented-out lines of code should be removed.(Õø˜Ù
-gsquid:CommentedOutCodeLine~"<This block of commented-out lines of code should be removed.(ß©üğüÿÿÿÿ
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ù·Ô³8¸¼Ÿ¾Ú-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ö¦¦şÿÿÿÿ8¸¼Ÿ¾Ú-
+ squid:S1192"ƒDefine a constant instead of duplicating this literal "                                            <td>packagename</td>\n" 3 times.(¿¹¦8Ñ’®¾Ú-
+\squid:UselessImportCheck":Remove this unused import 'org.openqa.selenium.WebDriver'.(ñšÿÀ
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(™²ªËøÿÿÿÿ8¸¼Ÿ¾Ú-

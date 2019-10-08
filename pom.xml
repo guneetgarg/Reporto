@@ -6,7 +6,27 @@
 
     <groupId>Reporto</groupId>
     <artifactId>Reporto</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <name>Reporto</name>
+    <description>A simple elegant testng reporting tool</description>
+
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Guneet Garg</name>
+            <email>guneetgarg@gmail.com</email>
+        </developer>
+    </developers>
+
+
     <build>
         <plugins>
             <plugin>
@@ -19,6 +39,8 @@
             </plugin>
         </plugins>
     </build>
+
+    
 
 
     <dependencies>
