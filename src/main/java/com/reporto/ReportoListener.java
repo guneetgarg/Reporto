@@ -99,25 +99,26 @@ public class ReportoListener extends TestListenerAdapter implements IReporter, I
             e.printStackTrace();
         }
 
-        fileContent = fileContent.replace("passedData", String.valueOf(StatsResult.passed));
-        fileContent = fileContent.replace("totalData", String.valueOf(StatsResult.getTotal()));
-        fileContent = fileContent.replace("failedData", String.valueOf(StatsResult.failed));
-        fileContent = fileContent.replace("skippedData", String.valueOf(StatsResult.skipped));
+        fileContent = fileContent.replace("passedData", String.valueOf(StatsResult.passed))
+                .replace("totalData", String.valueOf(StatsResult.getTotal()))
+                .replace("failedData", String.valueOf(StatsResult.failed))
+                .replace("skippedData", String.valueOf(StatsResult.skipped));
 
-        fileContent = fileContent.replace("osData", System.getProperty("os.name"));
-        fileContent = fileContent.replace("userData", System.getProperty("user.name"));
-        fileContent = fileContent.replace("startTimeData", startTime.toString());
-        fileContent = fileContent.replace("endTimeData", endTime.toString());
-        fileContent = fileContent.replace("javaVersionnData", System.getProperty("java.version"));
-
-        fileContent = fileContent.replace("passedPerData", String.format("%.02f", (StatsResult.passed * 100.00 / StatsResult.getTotal())));
-        fileContent = fileContent.replace("failedPerData", String.format("%.02f", (StatsResult.failed * 100.00 / StatsResult.getTotal())));
-        fileContent = fileContent.replace("skippedPerData", String.format("%.02f", (StatsResult.skipped * 100.00 / StatsResult.getTotal())));
+        fileContent = fileContent.replace("osData", System.getProperty("os.name"))
+                .replace("userData", System.getProperty("user.name"))
+                .replace("startTimeData", startTime.toString())
+                .replace("endTimeData", endTime.toString())
+                .replace("javaVersionnData", System.getProperty("java.version"));
 
 
-        fileContent = fileContent.replace("passTestCaseAdd", passHtml);
-        fileContent = fileContent.replace("skipTestCaseAdd", skipHtml);
-        fileContent = fileContent.replace("failTestCaseAdd", failHtml);
+        fileContent = fileContent.replace("passedPerData", String.format("%.02f", (StatsResult.passed * 100.00 / StatsResult.getTotal())))
+                .replace("failedPerData", String.format("%.02f", (StatsResult.failed * 100.00 / StatsResult.getTotal())))
+                .replace("skippedPerData", String.format("%.02f", (StatsResult.skipped * 100.00 / StatsResult.getTotal())));
+
+
+        fileContent = fileContent.replace("passTestCaseAdd", passHtml)
+                .replace("skipTestCaseAdd", skipHtml)
+                .replace("failTestCaseAdd", failHtml);
 
 
         try {
