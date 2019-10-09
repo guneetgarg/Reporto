@@ -2,12 +2,12 @@
 <testng-results skipped="2" failed="5" ignored="0" total="13" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation Reporto" duration-ms="10349" started-at="2019-10-08T01:29:55 IST" finished-at="2019-10-08T01:30:05 IST">
+  <suite name="Automation Reporto" duration-ms="10301" started-at="2019-10-10T01:37:29 IST" finished-at="2019-10-10T01:37:39 IST">
     <groups>
     </groups>
-    <test name="testTest" duration-ms="10349" started-at="2019-10-08T01:29:55 IST" finished-at="2019-10-08T01:30:05 IST">
+    <test name="testTest" duration-ms="10301" started-at="2019-10-10T01:37:29 IST" finished-at="2019-10-10T01:37:39 IST">
       <class name="functional.FunctionalSample">
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:functional.FunctionalSample@7dc7cbad]" name="beforeClass" is-config="true" duration-ms="10011" started-at="2019-10-08T01:29:55 IST" finished-at="2019-10-08T01:30:05 IST">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:functional.FunctionalSample@d2cc05a]" name="beforeClass" is-config="true" duration-ms="10007" started-at="2019-10-10T01:37:29 IST" finished-at="2019-10-10T01:37:39 IST">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String)[pri:0, instance:functional.FunctionalSample@7dc7cbad]" name="dataProviderTest" duration-ms="2" started-at="2019-10-08T01:30:05 IST" data-provider="dataProviderTest" finished-at="2019-10-08T01:30:05 IST">
+        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String)[pri:0, instance:functional.FunctionalSample@d2cc05a]" name="dataProviderTest" duration-ms="0" started-at="2019-10-10T01:37:39 IST" data-provider="dataProviderTest" finished-at="2019-10-10T01:37:39 IST">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataProviderTest -->
-        <test-method status="FAIL" signature="dataProviderTest(java.lang.String, java.lang.String)[pri:0, instance:functional.FunctionalSample@7dc7cbad]" name="dataProviderTest" duration-ms="1" started-at="2019-10-08T01:30:05 IST" data-provider="dataProviderTest" finished-at="2019-10-08T01:30:05 IST">
+        <test-method status="FAIL" signature="dataProviderTest(java.lang.String, java.lang.String)[pri:0, instance:functional.FunctionalSample@d2cc05a]" name="dataProviderTest" duration-ms="1" started-at="2019-10-10T01:37:39 IST" data-provider="dataProviderTest" finished-at="2019-10-10T01:37:39 IST">
           <params>
             <param index="0">
               <value>
@@ -97,7 +97,7 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataProviderTest -->
-        <test-method status="FAIL" signature="failingTest()[pri:0, instance:functional.FunctionalSample@7dc7cbad]" name="failingTest" duration-ms="0" started-at="2019-10-08T01:30:05 IST" finished-at="2019-10-08T01:30:05 IST">
+        <test-method status="FAIL" signature="failingTest()[pri:0, instance:functional.FunctionalSample@d2cc05a]" name="failingTest" duration-ms="0" started-at="2019-10-10T01:37:39 IST" finished-at="2019-10-10T01:37:39 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Metrics] but found [TestNG]]]>
@@ -143,21 +143,21 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failingTest -->
-        <test-method status="PASS" signature="passingTest()[pri:0, instance:functional.FunctionalSample@7dc7cbad]" name="passingTest" duration-ms="1" started-at="2019-10-08T01:30:05 IST" finished-at="2019-10-08T01:30:05 IST">
+        <test-method status="PASS" signature="passingTest()[pri:0, instance:functional.FunctionalSample@d2cc05a]" name="passingTest" duration-ms="0" started-at="2019-10-10T01:37:39 IST" finished-at="2019-10-10T01:37:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passingTest -->
-        <test-method status="PASS" signature="passingTest1()[pri:0, instance:functional.FunctionalSample@7dc7cbad]" name="passingTest1" duration-ms="0" started-at="2019-10-08T01:30:05 IST" finished-at="2019-10-08T01:30:05 IST">
+        <test-method status="PASS" signature="passingTest1()[pri:0, instance:functional.FunctionalSample@d2cc05a]" name="passingTest1" duration-ms="1" started-at="2019-10-10T01:37:39 IST" finished-at="2019-10-10T01:37:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passingTest1 -->
-        <test-method status="SKIP" signature="skippingTest()[pri:0, instance:functional.FunctionalSample@7dc7cbad]" name="skippingTest" duration-ms="0" started-at="2019-10-08T01:30:05 IST" depends-on-methods="functional.FunctionalSample.failingTest" finished-at="2019-10-08T01:30:05 IST">
+        <test-method status="SKIP" signature="skippingTest()[pri:0, instance:functional.FunctionalSample@d2cc05a]" name="skippingTest" duration-ms="0" started-at="2019-10-10T01:37:39 IST" depends-on-methods="functional.FunctionalSample.failingTest" finished-at="2019-10-10T01:37:39 IST">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method FunctionalSample.skippingTest()[pri:0, instance:functional.FunctionalSample@7dc7cbad] depends on not successfully finished methods]]>
+              <![CDATA[Method FunctionalSample.skippingTest()[pri:0, instance:functional.FunctionalSample@d2cc05a] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method FunctionalSample.skippingTest()[pri:0, instance:functional.FunctionalSample@7dc7cbad] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method FunctionalSample.skippingTest()[pri:0, instance:functional.FunctionalSample@d2cc05a] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:99)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -182,17 +182,17 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- skippingTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:functional.FunctionalSample@7dc7cbad]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-10-08T01:30:05 IST" finished-at="2019-10-08T01:30:05 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:functional.FunctionalSample@d2cc05a]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-10-10T01:37:39 IST" finished-at="2019-10-10T01:37:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- functional.FunctionalSample -->
       <class name="com.test.sample.FunctionalSample1">
-        <test-method status="PASS" signature="TestA()[pri:0, instance:com.test.sample.FunctionalSample1@5419f379]" name="TestA" duration-ms="14" started-at="2019-10-08T01:29:55 IST" description="Launches the WordPress site" finished-at="2019-10-08T01:29:55 IST">
+        <test-method status="PASS" signature="TestA()[pri:0, instance:com.test.sample.FunctionalSample1@7dc7cbad]" name="TestA" duration-ms="25" started-at="2019-10-10T01:37:29 IST" description="Launches the WordPress site" finished-at="2019-10-10T01:37:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestA -->
-        <test-method status="FAIL" signature="TestB()[pri:0, instance:com.test.sample.FunctionalSample1@5419f379]" name="TestB" duration-ms="6" started-at="2019-10-08T01:29:55 IST" finished-at="2019-10-08T01:29:55 IST">
+        <test-method status="FAIL" signature="TestB()[pri:0, instance:com.test.sample.FunctionalSample1@7dc7cbad]" name="TestB" duration-ms="13" started-at="2019-10-10T01:37:29 IST" finished-at="2019-10-10T01:37:29 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected 3 but got 4 expected [4] but found [2]]]>
@@ -237,11 +237,11 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestB -->
-        <test-method status="PASS" signature="TestC()[pri:0, instance:com.test.sample.FunctionalSample1@5419f379]" name="TestC" duration-ms="102" started-at="2019-10-08T01:29:55 IST" finished-at="2019-10-08T01:29:55 IST">
+        <test-method status="PASS" signature="TestC()[pri:0, instance:com.test.sample.FunctionalSample1@7dc7cbad]" name="TestC" duration-ms="104" started-at="2019-10-10T01:37:29 IST" finished-at="2019-10-10T01:37:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestC -->
-        <test-method status="FAIL" signature="TestD()[pri:0, instance:com.test.sample.FunctionalSample1@5419f379]" name="TestD" duration-ms="0" started-at="2019-10-08T01:29:55 IST" finished-at="2019-10-08T01:29:55 IST">
+        <test-method status="FAIL" signature="TestD()[pri:0, instance:com.test.sample.FunctionalSample1@7dc7cbad]" name="TestD" duration-ms="1" started-at="2019-10-10T01:37:29 IST" finished-at="2019-10-10T01:37:29 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -284,11 +284,11 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestD -->
-        <test-method status="PASS" signature="TestE()[pri:0, instance:com.test.sample.FunctionalSample1@5419f379]" name="TestE" duration-ms="0" started-at="2019-10-08T01:29:55 IST" finished-at="2019-10-08T01:29:55 IST">
+        <test-method status="PASS" signature="TestE()[pri:0, instance:com.test.sample.FunctionalSample1@7dc7cbad]" name="TestE" duration-ms="0" started-at="2019-10-10T01:37:29 IST" finished-at="2019-10-10T01:37:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestE -->
-        <test-method status="FAIL" signature="TestF()[pri:0, instance:com.test.sample.FunctionalSample1@5419f379]" name="TestF" duration-ms="1" started-at="2019-10-08T01:29:55 IST" finished-at="2019-10-08T01:29:55 IST">
+        <test-method status="FAIL" signature="TestF()[pri:0, instance:com.test.sample.FunctionalSample1@7dc7cbad]" name="TestF" duration-ms="1" started-at="2019-10-10T01:37:29 IST" finished-at="2019-10-10T01:37:29 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -331,7 +331,7 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestF -->
-        <test-method status="SKIP" signature="testCaseSkipException()[pri:0, instance:com.test.sample.FunctionalSample1@5419f379]" name="testCaseSkipException" duration-ms="1" started-at="2019-10-08T01:29:55 IST" finished-at="2019-10-08T01:29:55 IST">
+        <test-method status="SKIP" signature="testCaseSkipException()[pri:0, instance:com.test.sample.FunctionalSample1@7dc7cbad]" name="testCaseSkipException" duration-ms="0" started-at="2019-10-10T01:37:29 IST" finished-at="2019-10-10T01:37:29 IST">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping this exception]]>

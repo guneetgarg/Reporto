@@ -5,6 +5,14 @@
     <parameter name="sUsername" value="testuser_1"/>
     <parameter name="sPassword" value="Test@123"/>
     <classes>
+      <class name="com.test.sample.FunctionalSample1">
+        <methods>
+          <include name="testCaseSkipException"/>
+          <include name="TestD"/>
+          <include name="TestF"/>
+          <include name="TestB"/>
+        </methods>
+      </class> <!-- com.test.sample.FunctionalSample1 -->
       <class name="functional.FunctionalSample">
         <methods>
           <include name="beforeClass"/>
@@ -14,14 +22,6 @@
           <include name="afterClass"/>
         </methods>
       </class> <!-- functional.FunctionalSample -->
-      <class name="com.test.sample.FunctionalSample1">
-        <methods>
-          <include name="testCaseSkipException"/>
-          <include name="TestD"/>
-          <include name="TestF"/>
-          <include name="TestB"/>
-        </methods>
-      </class> <!-- com.test.sample.FunctionalSample1 -->
     </classes>
   </test> <!-- testTest(failed) -->
 </suite> <!-- Failed suite [Automation Reporto] -->

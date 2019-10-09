@@ -83,7 +83,7 @@ public class ReportoListener extends TestListenerAdapter implements IReporter, I
 
         byte[] data1 = new byte[0];
         //File file = new File(System.getProperty("user.dir") + "\\src\\main\\resources\\startbootstrap-sb-admin-2-gh-pages\\index.html");
-        File file = new File(System.getProperty("user.dir") + "/src/main/resources/startbootstrap-sb-admin-2-gh-pages/index.html");
+        File file = new File(System.getProperty("user.dir") + "/src/main/resources/index.html");
         FileInputStream fis = null;
         try {
             fis = new FileInputStream(file);
