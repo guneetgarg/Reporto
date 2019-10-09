@@ -24,6 +24,8 @@ public class ReportoListener extends TestListenerAdapter implements IReporter, I
     String passHtml = "";
     String skipHtml = "";
     String failHtml = "";
+    String embedHtml = "";
+
 
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
 
@@ -116,10 +118,7 @@ public class ReportoListener extends TestListenerAdapter implements IReporter, I
                 .replace("skippedPerData", String.format("%.02f", (StatsResult.skipped * 100.00 / StatsResult.getTotal())));
 
 
-        fileContent = fileContent.replace("passTestCaseAdd", passHtml)
-                .replace("skipTestCaseAdd", skipHtml)
-                .replace("failTestCaseAdd", failHtml);
-
+        fileContent = fileContent.replace("resulttable", embedHtml);
 
         try {
             Files.writeFile(fileContent, file1);
@@ -137,13 +136,7 @@ public class ReportoListener extends TestListenerAdapter implements IReporter, I
             for (ITestResult testResult : iTestResults) {
                 System.out.println("**************** " + type + " ********************************");
 
-                if (type == "pass") {
-                    passHtml += passTestCaseEmbeded();
-                } else if (type == "skip") {
-                    skipHtml += skipTestCaseEmbeded();
-                } else if (type == "fail") {
-                    failHtml += failTestCaseEmbeded();
-                }
+                embedHtml += executionHtmlData(type);
 
                 DateFormat simple = new SimpleDateFormat("dd MMM yyyy HH:mm:ss:SSS Z");
                 Date result = new Date(testResult.getStartMillis());
@@ -175,109 +168,58 @@ public class ReportoListener extends TestListenerAdapter implements IReporter, I
                 }
 
 
-                if (type == "pass") {
-                    passHtml = passHtml.replace("testcasename", testcasename);
-                    passHtml = passHtml.replace("classname", classname);
-                    passHtml = passHtml.replace("packagename", packagename);
-                } else if (type == "skip") {
-                    skipHtml = skipHtml.replace("testcasename", testcasename);
-                    skipHtml = skipHtml.replace("classname", classname);
-                    skipHtml = skipHtml.replace("packagename", packagename);
-                    skipHtml = skipHtml.replace("errormessage", testResult.getThrowable().toString());
-                } else if (type == "fail") {
-                    failHtml = failHtml.replace("testcasename", testcasename);
-                    failHtml = failHtml.replace("classname", classname);
-                    failHtml = failHtml.replace("packagename", packagename);
-                    failHtml = failHtml.replace("errormessage", testResult.getThrowable().toString());
-                }
+                embedHtml = embedHtml.replace("testcasename", testcasename)
+                        .replace("classname", classname)
+                        .replace("packagename", packagename);
+                if (!(type == "pass"))
+                    embedHtml = embedHtml.replace("errormessage", testResult.getThrowable().toString());
             }
         }
     }
 
+    public String executionHtmlData(String type) {
+        String id = null;
+        if (type == "pass") {
+            type = "passType";
+            id = "divPassed";
+        } else if (type == "skip") {
+            type = "skipType";
+            id = "divSkipped";
+        } else if (type == "fail") {
+            type = "failType";
+            id = "divFailed";
+        }
 
-    public String passTestCaseEmbeded() {
-        String pass = "        <div id=\"divpad\" data-type=\"accordion-section\" data-filter=\"passType\">\n" +
-                "                            <div id=\"divPassed\" data-type=\"accordion-section-title\">testcasename</div>\n" +
-                "                            <div class=\"accordion-content\" data-type=\"accordion-section-body\">\n" +
-                "                                <div class=\"table-responsive\">\n" +
-                "                                    <table class=\"table table-bordered\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\n" +
-                "                                        <tr>\n" +
-                "                                            <td>Class Name</td>\n" +
-                "                                            <td>classname</td>\n" +
-                "                                        </tr>\n" +
-                "                                        <tr>\n" +
-                "                                            <td>Test Case Name</td>\n" +
-                "                                            <td>testcasename</td>\n" +
-                "                                        </tr>\n" +
-                "                                        <tr>\n" +
-                "                                            <td>Package Name</td>\n" +
-                "                                            <td>packagename</td>\n" +
-                "                                        </tr>\n" +
-                "                                    </table>\n" +
-                "                                </div>\n" +
-                "                            </div>\n" +
-                "                        </div>";
+        String errorHtml = "</tr>" +
+                "<tr>" +
+                "<td>Error Message</td>" +
+                "<td>errormessage</td>" +
+                "</tr>";
 
-        return pass;
+        String tableHtml = "<div id=\"divpad\" data-type=\"accordion-section\" data-filter=\"" + type + "\">" +
+                "<div id=\"" + id + "\" data-type=\"accordion-section-title\">testcasename</div>" +
+                "<div class=\"accordion-content\" data-type=\"accordion-section-body\">" +
+                "<div class=\"table-responsive\">" +
+                "<table class=\"table table-bordered\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">" +
+                "<tr>" +
+                "<td>Class Name</td>" +
+                "<td>classname</td>" +
+                "</tr>" +
+                "<tr>" +
+                "<td>Test Case Name</td>" +
+                "<td>testcasename</td>" +
+                "</tr>" +
+                "<tr>" +
+                "<td>Package Name</td>" +
+                "<td>packagename</td>" +
+                "</tr>" +
+                "notpassed" +
+                "</table>" +
+                "</div>" +
+                "</div>" +
+                "</div>";
+
+        return type == "passType" ? tableHtml.replace("notpassed", " ") : tableHtml.replace("notpassed", errorHtml);
+
     }
-
-    public String skipTestCaseEmbeded() {
-
-        return "                        <div id=\"divpad\" data-type=\"accordion-section\" data-filter=\"skipType\">\n" +
-                "                            <div id=\"divSkipped\" data-type=\"accordion-section-title\">testcasename</div>\n" +
-                "                            <div class=\"accordion-content\" data-type=\"accordion-section-body\">\n" +
-                "\n" +
-                "                                <div class=\"table-responsive\">\n" +
-                "                                    <table class=\"table table-bordered\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\n" +
-                "                                           <tr>\n" +
-                "                                            <td>Class Name</td>\n" +
-                "                                            <td>classname</td>\n" +
-                "                                        </tr>\n" +
-                "                                        <tr>\n" +
-                "                                            <td>Test Case Name</td>\n" +
-                "                                            <td>testcasename</td>\n" +
-                "                                        </tr>\n" +
-                "                                        <tr>\n" +
-                "                                            <td>Package Name</td>\n" +
-                "                                            <td>packagename</td>\n" +
-                "                                        </tr>\n" +
-                "                                        <tr>\n" +
-                "                                            <td>Error Message</td>\n" +
-                "                                            <td>errormessage</td>\n" +
-                "                                        </tr>\n" +
-                "                                    </table>\n" +
-                "                                </div>\n" +
-                "\n" +
-                "                            </div>\n" +
-                "                        </div>\n";
-    }
-
-    public String failTestCaseEmbeded() {
-        return " <div id=\"divpad\" data-type=\"accordion-section\" data-filter=\"failType\">\n" +
-                "                            <div id=\"divFailed\" data-type=\"accordion-section-title\">testcasename</div>\n" +
-                "                            <div class=\"accordion-content\" data-type=\"accordion-section-body\">\n" +
-                "                                <div class=\"table-responsive\">\n" +
-                "                                    <table class=\"table table-bordered\" id=\"dataTable\" width=\"100%\" cellspacing=\"0\">\n" +
-                "                                         <tr>\n" +
-                "                                            <td>Class Name</td>\n" +
-                "                                            <td>classname</td>\n" +
-                "                                        </tr>\n" +
-                "                                        <tr>\n" +
-                "                                            <td>Test Case Name</td>\n" +
-                "                                            <td>testcasename</td>\n" +
-                "                                        </tr>\n" +
-                "                                        <tr>\n" +
-                "                                            <td>Package Name</td>\n" +
-                "                                            <td>packagename</td>\n" +
-                "                                        </tr>\n" +
-                "                                        <tr>\n" +
-                "                                            <td>Error Message</td>\n" +
-                "                                            <td>errormessage</td>\n" +
-                "                                        </tr>\n" +
-                "                                    </table>\n" +
-                "                                </div>\n" +
-                "                            </div>\n" +
-                "                        </div>";
-    }
-
 }
